@@ -38,7 +38,7 @@ const Products: React.FC = () => {
                             </div>
 
                             <div className="grid justify-center">
-                                <Image src="/static/assets/promo.png" alt="" width={140} height={155} />
+                                <Image src="/static/assets/cta-img-2.png" alt="" width={140} height={155} />
                             </div>
                             {/* <img className="img-fluid" src="./assets/images/promo.png" alt="image"> */}
 

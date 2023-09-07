@@ -6,7 +6,7 @@ const Header: React.FC = () => {
         <nav className="bg-[#eff3ff] shadow-[0_0_10px_#dde3f5] p-3 w-full fixed z-10">
             <div className="max-w-6xl mx-auto flex justify-between items-center ">
                 <div className='flex'>
-                    <a href="#" className="text-[#00a669] text-2xl font-bold">
+                    <a href="#" className="text-[#00a669] text-2xl font-medium">
                         ACC<span className='text-black'>INGE</span>
                         <p className='text-black text-xs'>TECHNOLOGIES</p>
                     </a>
