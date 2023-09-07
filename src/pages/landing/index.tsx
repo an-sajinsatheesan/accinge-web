@@ -1,9 +1,9 @@
 import React from 'react';
 import BaseBody from './landing-start/base';
 import Products from './landing-products/products';
-import './landing.scss'
 
-const HomeBody: React.FC = () => {
+
+const Landing: React.FC = () => {
     return (
         <>
 
@@ -15,4 +15,4 @@ const HomeBody: React.FC = () => {
     );
 };
 
-export default HomeBody;
+export default Landing;

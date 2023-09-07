@@ -1,7 +1,8 @@
 import Head from "next/head";
 import 'bootstrap/dist/css/bootstrap.css'
-// import '../styles/globals.scss';
 import { AppPropsWithLayout } from '@/types/page';
+import '@/styles/globals.scss'
+
 
 function MyApp({ Component, pageProps }: AppPropsWithLayout) {
     const getLayout = Component.getLayout ?? ((page) => page);

@@ -11,7 +11,6 @@ const Header: React.FC = () => {
                         <p className='text-black text-xs'>TECHNOLOGIES</p>
                     </a>
                     <Image src="/static/assets/logo-removebg-preview.png" alt="" width={70} height={70} />
-                    {/* <img src="../../assets/logo-removebg-preview.png" alt="logo" /> */}
                 </div>
                 <ul className="flex space-x-4">
                     <li><a href="#" className="text-black">Home</a></li>

@@ -1,10 +1,12 @@
 import Image from 'next/image';
 import React from 'react';
+import styles from './landing.module.scss';
+
 
 const BaseBody: React.FC = () => {
     return (
         <>
-            <div className="bg-[#eff3ff] relative overflow-hidden h-screen">
+            <div className={`"bg-[#eff3ff] relative overflow-hidden h-screen"`}>
                 <div className="max-w-6xl mx-auto py-28">
                     <div className="flex gap-8 items-center">
                         <div className="">
@@ -14,7 +16,7 @@ const BaseBody: React.FC = () => {
                             <p className="text-lg">Acknowledged by,</p>
                         </div>
                         <div className="">
-                        <Image src="/static/assets/banner_image.png" alt="" width={70} height={70} />
+                            <Image src="/static/assets/banner_image.png" alt="" width={70} height={70} />
                         </div>
 
                     </div>
