@@ -11,7 +11,7 @@ const Industries: React.FC = () => {
     console.log()
     return (
         <>
-            <div className="bg-[#eff3ff] py-20 overflow-hidden">
+            <div className="bg-[#eff3ff] pb-40 overflow-hidden">
                 <h1 className='max-w-6xl mx-auto w-100 grid justify-center sub-green-heading'>Industries</h1>
                 <h1 className='max-w-6xl mx-auto w-100 grid justify-center banner-title  py-8'>We are touch with</h1>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 max-w-6xl mx-auto gap-8">
