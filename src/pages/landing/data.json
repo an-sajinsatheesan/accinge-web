@@ -43,24 +43,98 @@
             "Img": "/static/assets/client-bw/honda.png"
         },
         {
-            "id": 1,
+            "id": 2,
             "Img": "/static/assets/client-bw/carrefour.png"
         },
         {
-            "id": 1,
+            "id": 3,
             "Img": "/static/assets/client-bw/ethihadrail.png"
         },
         {
-            "id": 1,
+            "id": 4,
             "Img": "/static/assets/client-bw/itc.png"
         },
         {
-            "id": 1,
+            "id": 5,
             "Img": "/static/assets/client-bw/standc.png"
         },
         {
-            "id": 1,
+            "id": 6,
             "Img": "/static/assets/client-bw/british.png"
+        }
+    ],
+    "digital": [
+        {
+            "id": 1,
+            "Img": "/static/assets/client-color/itc_logo.png",
+            "width": 200,
+            "height": 65
+        },
+        {
+            "id": 2,
+            "Img": "/static/assets/client-color/logo_cupola.png",
+            "width": 200,
+            "height": 65
+        },
+        {
+            "id": 3,
+            "Img": "/static/assets/client-color/ethihad.png",
+            "width": 185,
+            "height": 50
+        },
+        {
+            "id": 4,
+            "Img": "/static/assets/client-color/day-to-day.png",
+            "width": 185,
+            "height": 50
+        },
+        {
+            "id": 5,
+            "Img": "/static/assets/client-color/fab-1.png",
+            "width": 165,
+            "height": 50
+        },
+        {
+            "id": 6,
+            "Img": "/static/assets/client-color/bat.png",
+            "width": 132,
+            "height": 50
+        },
+        {
+            "id": 7,
+            "Img": "/static/assets/client-color/hp.png",
+            "width": 143,
+            "height": 50
+        },
+        {
+            "id": 8,
+            "Img": "/static/assets/client-color/vox.png",
+            "width": 102,
+            "height": 70
+        },
+        {
+            "id": 9,
+            "Img": "/static/assets/client-color/sc.png",
+            "width": 147,
+            "height": 50
+        },
+        {
+            "id": 10,
+            "Img": "/static/assets/client-color/transguard.png",
+            "width": 90,
+            "height": 50
+        },
+        {
+            "id": 11,
+            "Img": "/static/assets/client-color/lukoil-logo.png",
+            "width": 185,
+            "height": 50
+        },
+        {
+            "id": 12,
+            "Img": "/static/assets/client-color/km-trading.png",
+            "width": 185,
+            "height": 50
         }
     ]
 }

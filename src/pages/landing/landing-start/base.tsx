@@ -21,7 +21,6 @@ const BaseBody: React.FC = () => {
                             <h5 className="text-lg mb-4">Acknowledged by,</h5>
                             <div className="flex gap-2">
                                 {brands?.length && brands.map((item: any, index: any) => (
-
                                     <div key={item.id}>
                                         <Image src={item.Img} alt="" width={50} height={50} />
                                     </div>

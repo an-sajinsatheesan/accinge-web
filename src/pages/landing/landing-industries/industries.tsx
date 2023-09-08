@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import React, { useState } from 'react';
 import styles from './landing.module.scss';
-import IndustryList from './../data.json';
+import IndustryList from '../data.json';
 
 
 const Industries: React.FC = () => {

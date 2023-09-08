@@ -71,6 +71,16 @@ body {
     line-height: 1.35;
 }
 
+.card-digital {
+    background: #e5ebff;
+    border-radius: 5px;
+    padding: 20px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .card-subheading {
     font-size: 15px;
     min-height: 50px;
