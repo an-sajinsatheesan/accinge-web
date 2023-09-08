@@ -54,6 +54,48 @@ body {
     color: #212529;
 }
 
+.banner-subtitle {
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.sub-green-heading {
+    font-size: 17px;
+    color: #00a669;
+}
+
+.card-heading {
+    font-size: 17px;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    line-height: 1.35;
+}
+
+.card-subheading {
+    font-size: 15px;
+    min-height: 50px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.border-btn {
+    border-radius: 5px;
+    border: 2px solid #00a669;
+    font-size: 15px;
+    text-transform: capitalize;
+    padding: 10px 30px;
+    background: transparent;
+    color: #00a669;
+    font-weight: 500;
+    margin-top: 15px;
+}
+
+.trust-heading {
+    font-size: 15px;
+    color: #212529;
+    font-weight: 500;
+}
+
 .card-sec {
     padding: 1.8rem;
     border-radius: 10px;
