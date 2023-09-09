@@ -5,6 +5,8 @@ import Industries from './landing-industries/industries';
 import Digitalization from './landing-digitalization/digitilization';
 import Technologies from './landing-technology/technology';
 import TrustedBrands from './landing-trusted-clients';
+import ClientFeedback from './landing-client-feedback/clientFeedback';
+import ConatactUs from './landing-contact-us/ContactUs';
 
 
 const Landing: React.FC = () => {
@@ -15,8 +17,10 @@ const Landing: React.FC = () => {
             <TrustedBrands/>
             <Products/>
             <Technologies/>
+            <ClientFeedback/>
             <Industries/>
             <Digitalization/>
+            <ConatactUs/>
 
         </>
 

@@ -75,7 +75,7 @@ body {
     background: #e5ebff;
     border-radius: 5px;
     padding: 20px;
-    height: 80px;
+    height: 135px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -127,7 +127,7 @@ body {
 
 .industry-card-sec {
     border-radius: 10px;
-    border: 1px solid #00a669;
+   // border: 1px solid #00a669;
     background-color: #ffffff;
     z-index: 9;
 }
@@ -152,4 +152,41 @@ body {
     width: 180px;
     border-radius: 50%;
     top: 0;
+}
+
+.fixed-top {
+    background-color: #eff3ff !important;
+    box-shadow: 0 0 10px #dde3f5;
+}
+
+.contact-card {
+    background: linear-gradient(283.03deg, #9ef4df -1.03%, #ffdffd 76.1%);
+    padding: 88px 0;
+    min-height: 280px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.border-ip {
+    background-color: transparent;
+    border-bottom: 1px solid grey;
+    width: 25rem;
+    font-size: 14px;
+    padding: 10px;
+}
+
+.border-ip:focus {
+    outline: none;
+    border: none;
+    border-bottom: 1px solid grey;
+}
+
+.arrow-img {
+    color: transparent;
+    top: 0px;
+    bottom: 0;
+    right: 16px;
+    cursor: pointer;
+
 }
