@@ -1,13 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
- 
+
 :root {
     --foreground-rgb: 0, 0, 0;
     --background-start-rgb: 214, 219, 220;
     --background-end-rgb: 255, 255, 255;
-    font-family: 'Urbanist', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -21,5 +21,135 @@
 html,
 body {
     font-size: 16px;
-    font-family: 'Urbanist', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* Triangle */
+.triangle {
+    position: absolute;
+    height: 400px;
+    width: 400px;
+    background-color: rgba(23, 92, 255, 0.07);
+    border-radius: 70px;
+    transform: rotate(45deg);
+}
+
+.one {
+    left: -12%;
+    top: 50%;
+    transform: translateY(-50%) rotate(45deg);
+}
+
+.two {
+    right: -13%;
+    bottom: -13%;
+    z-index: 1;
+}
+
+.banner-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #212529;
+}
+
+.banner-subtitle {
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.sub-green-heading {
+    font-size: 17px;
+    color: #00a669;
+}
+
+.card-heading {
+    font-size: 17px;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    line-height: 1.35;
+}
+
+.card-digital {
+    background: #e5ebff;
+    border-radius: 5px;
+    padding: 20px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-subheading {
+    font-size: 15px;
+    min-height: 50px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.border-btn {
+    border-radius: 5px;
+    border: 2px solid #00a669;
+    font-size: 15px;
+    text-transform: capitalize;
+    padding: 10px 30px;
+    background: transparent;
+    color: #00a669;
+    font-weight: 500;
+    margin-top: 15px;
+}
+
+.trust-heading {
+    font-size: 15px;
+    color: #212529;
+    font-weight: 500;
+}
+
+.card-sec {
+    padding: 1.8rem;
+    border-radius: 10px;
+    border: 1px solid #00a669;
+    background-color: #ffffff;
+}
+
+.service-card-sec {
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 0.8rem;
+    border-radius: 10px;
+    border: 1px solid #00a669;
+    z-index: 9;
+    background-color: #ffffff;
+}
+
+.industry-card-sec {
+    border-radius: 10px;
+    border: 1px solid #00a669;
+    background-color: #ffffff;
+    z-index: 9;
+}
+
+.product:after {
+    content: "";
+    position: absolute;
+    left: -40px;
+    background: #ffbf99;
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    bottom: 0;
+}
+
+.product:before {
+    content: "";
+    position: absolute;
+    right: -6%;
+    background: #a374ff;
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    top: 0;
 }
