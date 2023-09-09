@@ -18,7 +18,7 @@ const BaseBody: React.FC = () => {
                             <h1 className='banner-title'>Solution For</h1>
                             <h2 className='banner-title'>Every IT Bussiness</h2>
                             <h5 className="banner-subtitle max-w-md py-4"> Enhancing your digital transformation process through product development.</h5>
-                            <h5 className="text-lg mb-4">Acknowledged by,</h5>
+                            {/* <h5 className="text-lg mb-4">Acknowledged by,</h5>
                             <div className="flex gap-2">
                                 {brands?.length && brands.map((item: any, index: any) => (
                                     <div key={item.id}>
@@ -26,7 +26,7 @@ const BaseBody: React.FC = () => {
                                     </div>
 
                                 ))}
-                            </div>
+                            </div> */}
                         </div>
                         <div className="">
                             <Image src="/static/assets/banner_image.png" alt="" width={540} height={540} />

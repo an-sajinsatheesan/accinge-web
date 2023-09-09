@@ -4,6 +4,7 @@ import Products from './landing-products/products';
 import Industries from './landing-industries/industries';
 import Digitalization from './landing-digitalization/digitilization';
 import Technologies from './landing-technology/technology';
+import TrustedBrands from './landing-trusted-clients';
 
 
 const Landing: React.FC = () => {
@@ -11,6 +12,7 @@ const Landing: React.FC = () => {
         <>
 
             <BaseBody />
+            <TrustedBrands/>
             <Products/>
             <Technologies/>
             <Industries/>
