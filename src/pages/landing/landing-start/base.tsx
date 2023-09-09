@@ -11,7 +11,7 @@ const BaseBody: React.FC = () => {
 
     return (
         <>
-            <div className="bg-[#eff3ff] relative overflow-hidden h-screen">
+            <div className="bg-[url('https://salient.tailwindui.com/_next/static/media/background-faqs.55d2e36a.jpg')] bg-no-repeat bg-center bg-cover relative overflow-hidden">
                 <div className="max-w-6xl mx-auto py-40">
                     <div className="flex gap-36 items-center">
                         <div className="">
@@ -35,10 +35,10 @@ const BaseBody: React.FC = () => {
                     </div>
 
                 </div>
-                <div className=''>
+                {/* <div className=''>
                     <div className="absolute h-96 w-96 bg-[#115CFF12] rounded-[70px] origin-center rotate-45 one"></div>
                     <div className="absolute h-96 w-96 bg-[#115CFF12] rounded-[70px] origin-center rotate-45 two"></div>
-                </div>
+                </div> */}
             </div>
 
 

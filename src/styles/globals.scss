@@ -75,7 +75,7 @@ body {
     background: #e5ebff;
     border-radius: 5px;
     padding: 20px;
-    height: 80px;
+    height: 135px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -153,3 +153,8 @@ body {
     border-radius: 50%;
     top: 0;
 }
+
+.fixed-top {
+    background-color: #eff3ff !important;
+    box-shadow: 0 0 10px #dde3f5;
+  }

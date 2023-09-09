@@ -11,7 +11,7 @@ const TrustedBrands: React.FC = () => {
 
     return (
         <>
-            <div className="bg-[#eff3ff] p-12 lg:p-24">
+            <div className="">
                 <div className="border-y border-slate-300 text-center py-12">
                     <h5 className="text-sm font-semibold tracking-wider text-gray-800 dark:text-white">TRUSTED BY YOUR FAVORED TOP COMPANIES</h5>
                     <div className="flex gap-24 justify-center pt-12">
