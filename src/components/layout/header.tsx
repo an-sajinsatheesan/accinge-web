@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 const Header: React.FC = () => {
     return <header>
-        <nav className=" p-3 w-full fixed z-10">
+        <nav className=" p-3 w-full fixed z-10 border-b border-gray-100 bg-white/50 backdrop-blur ">
             <div className="max-w-6xl mx-auto flex justify-between items-center ">
                 <div className='flex'>
                     <a href="#" className="text-[#00a669] text-2xl font-medium">
