@@ -20,7 +20,7 @@ const Technologies: React.FC = () => {
                         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 max-w-6xl mx-auto gap-8">
                             {List?.length && List.map((item: any, index: any) => (
                                 <div className="rounded-lg drop-shadow-lg border border-gray-100 bg-white py-3.5 px-4 flex gap-2 align-center z-[99]" key={item.id}>
-                                    <Image src={item.Img} alt="" width={18} height={18} layout="responsive"/>
+                                    <Image src={item.Img} alt="" width={18} height={18}/>
                                     <h1 className=''>{item.title}</h1>
                                 </div>
                             ))}

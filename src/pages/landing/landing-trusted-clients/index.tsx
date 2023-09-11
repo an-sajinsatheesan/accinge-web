@@ -17,7 +17,7 @@ const TrustedBrands: React.FC = () => {
                     <div className="flex gap-24 justify-center pt-12">
                         {brands?.length && brands.map((item: any, index: any) => (
                             <div key={item.id}>
-                                <Image src={item.Img} alt="" width={50} height={50} layout="responsive"/>
+                                <Image src={item.Img} alt="" width={50} height={50}/>
                             </div>
 
                         ))}

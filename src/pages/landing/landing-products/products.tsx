@@ -20,7 +20,7 @@ const Products: React.FC = () => {
                             </div>
 
                             <div className="grid justify-center">
-                                <Image src="/static/assets/promo.png" alt="HRM" width={140} height={155} layout="responsive"/>
+                                <Image src="/static/assets/promo.png" alt="HRM" width={140} height={155}/>
                             </div>
                         </div>
                     </div>
@@ -33,7 +33,7 @@ const Products: React.FC = () => {
                             </div>
 
                             <div className="grid justify-center">
-                                <Image src="/static/assets/cta-img-2.png" alt="ERP" width={140} height={155} layout="responsive"/>
+                                <Image src="/static/assets/cta-img-2.png" alt="ERP" width={140} height={155}/>
                             </div>
 
                         </div>
