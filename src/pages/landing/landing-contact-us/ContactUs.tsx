@@ -15,7 +15,7 @@ const ConatactUs: React.FC = () => {
                         Stay ahead of the curve with news, insights and updates from us about issues relevant to our organization and its work.
                     </div>
                     <div className="w-1/3 relative">
-                        <Image src="/static/assets/arrow.svg" alt="Arrow" width={40} height={40} className='absolute arrow-img' layout="responsive"/>
+                        <Image src="/static/assets/arrow.svg" alt="Arrow" width={40} height={40} className='absolute arrow-img'/>
                         <input type="email" placeholder='Your Email Address' className='border-ip' />
                     </div>
                 </div>
