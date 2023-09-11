@@ -14,9 +14,8 @@ const Products: React.FC = () => {
                                 <h4 className='card-heading'>Human Resource Management System</h4>
                                 <h2 className='card-subheading'>With our comprehensive Human Resource Management System, which is created to
                                     streamline administration and promote
-                                    organizational success, you can transform your HR procedures and promote
-                                    productivity among your employees.</h2>
-                                <button className="border-btn">Learn more </button>
+                                    organizational success and you can transform your HR ....</h2>
+                                <button className="border-btn drop-shadow-lg shadow-grey-300/50">Learn more </button>
                             </div>
 
                             <div className="grid justify-center">
@@ -28,8 +27,8 @@ const Products: React.FC = () => {
                         <div className="grid grid-cols-3 items-center justify-between">
                             <div className="col-span-2">
                                 <h4 className='card-heading'>Enterprise Resource Planning</h4>
-                                <h2 className='card-subheading'>With our comprehensive Enterprise Resource Planning application, you can successfully integrate, simplify and empower your whole business environment by enhancing productivity, boosting efficiency, fostering innovation, optimizing success, and driving sustainable growth for your organization.</h2>
-                                <button className="border-btn">Learn more </button>
+                                <h2 className='card-subheading'>With our comprehensive Enterprise Resource Planning application, you can successfully integrate, simplify and empower your whole business environment enhancing productivity and optimizing.....</h2>
+                                <button className="border-btn drop-shadow-lg shadow-grey-300/50">Learn more </button>
                             </div>
 
                             <div className="grid justify-center">
