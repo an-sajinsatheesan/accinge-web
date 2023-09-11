@@ -16,17 +16,17 @@ const ClientFeedback: React.FC = () => {
                     <div className="grid grid-rows-2 grid-flow-col gap-8">
                         <div className="row-span-3">
                             <div className='rounded-3xl border border-gray-100 bg-white p-8 drop-shadow-lg shadow-grey-300/50 dark:border-gray-700 dark:bg-gray-800 dark:shadow-none sm:col-span-2 sm:px-12 lg:col-span-1 lg:row-span-2'>
-                                <Image src="/static/assets/client-color/itc_logo.png" alt="" width={180} height={40} />
+                                <Image src="/static/assets/client-color/itc_logo.png" alt="" width={180} height={40} layout="responsive"/>
                             </div>
                         </div>
                         <div className="col-span-1">
                             <div className='rounded-3xl border border-gray-100 bg-white p-8 drop-shadow-lg shadow-gray-600/10 dark:border-gray-700 dark:bg-gray-800 dark:shadow-none sm:col-span-2 sm:px-12 lg:col-span-1 lg:row-span-2'>
-                                <Image src="/static/assets/client-color/itc_logo.png" alt="" width={180} height={40} />
+                                <Image src="/static/assets/client-color/itc_logo.png" alt="" width={180} height={40} layout="responsive"/>
                             </div>
                         </div>
                         <div className="row-span-2 col-span-1">
                             <div className='rounded-3xl border border-gray-100 bg-white p-8 drop-shadow-lg shadow-gray-600/10 dark:border-gray-700 dark:bg-gray-800 dark:shadow-none sm:col-span-2 sm:px-12 lg:col-span-1 lg:row-span-2'>
-                                <Image src="/static/assets/client-color/itc_logo.png" alt="" width={180} height={40} />
+                                <Image src="/static/assets/client-color/itc_logo.png" alt="" width={180} height={40} layout="responsive"/>
                             </div>
                         </div>
                     </div>

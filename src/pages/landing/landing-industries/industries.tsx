@@ -17,13 +17,14 @@ const Industries: React.FC = () => {
                     <div className="h-60 bg-gradient-to-r from-cyan-400 to-sky-300 blur-[106px] dark:to-indigo-600"></div>
                 </div> */}
                 <h1 className='max-w-6xl mx-auto w-100 grid justify-center sub-green-heading'>Industries</h1>
-                <h1 className='max-w-6xl mx-auto w-100 grid justify-center banner-title  py-8'>We are touch with</h1>
+                <h1 className='max-w-6xl mx-auto w-100 grid justify-center banner-title  py-6'>We are touch with</h1>
+                <h1 className='max-w-4xl mx-auto w-100 banner-subtitle text-center pb-4'>We maintain a strong presence in diverse industries, staying in touch with evolving trends and technologies to deliver tailored solutions that drive success across various sectors.</h1>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 max-w-6xl mx-auto gap-8">
                     {List?.length && List.map((item: any, index: any) => (
                         <div className='industry-card-sec drop-shadow-lg shadow-gray-600/10' key={item.id}>
                             <div className="grid grid-cols-1">
                                 <div className="img-sec">
-                                    <Image src={item.Img} alt="" width={350} height={240} className='w-100 rounded-t-[10px] brightness-50' />
+                                    <Image src={item.Img} alt="" width={350} height={240} className='w-100 rounded-t-[10px] brightness-50' layout="responsive"/>
                                 </div>
                                 <div className="detail-sec p-3">
                                     <p className='card-heading'>{item.title}</p>
