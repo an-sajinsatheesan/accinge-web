@@ -7,6 +7,7 @@ const Footer: React.FC = () => {
                 <div className="col-span-8 md:col-span-2 lg:col-span-4">
                     <div className="flex h-full items-center justify-between gap-6 border-b border-white py-6 md:flex-col md:items-start md:justify-between md:space-y-6 md:border-none md:py-0">
                         <div>
+                            
 
                         </div>
 
