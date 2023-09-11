@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React, { useState } from 'react';
-import styles from './landing.module.scss';
+import Banner from './../../../../public/static/assets/banner_image.png';
 import BrandList from './../data.json';
 
 
@@ -26,7 +26,7 @@ const BaseBody: React.FC = () => {
 
                         </div>
                         <div className="">
-                            <Image src="/static/assets/banner_image.png" alt="" width={540} height={540} layout="responsive"/>
+                            <Image src={Banner} alt="" width={540} height={540} layout="responsive" placeholder="blur"/>
                         </div>
 
                     </div>
