@@ -8,6 +8,7 @@ const ConatactUs: React.FC = () => {
 
     return (
         <>
+            <Image src="/static/assets/overlayMd.webp" alt="" width={1580} height={300} className='w-100 rotate-180' layout="responsive"/>
             <div className="contact-card">
                 <div className="flex w-10/12 items-center justify-around">
                     <div className="max-w-lg text-[20px] leading-9">

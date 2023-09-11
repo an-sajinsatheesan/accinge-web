@@ -154,5 +154,37 @@
             "width": 200,
             "height": 65
         }
+    ],
+    "services": [
+        {
+            "id": 1,
+            "title": "Web Development",
+            "Img": "/static/assets/icons/computer.svg"
+        },
+        {
+            "id": 2,
+            "title": "App Development",
+            "Img": "/static/assets/icons/mobile.svg"
+        },
+        {
+            "id": 3,
+            "title": "Data Security",
+            "Img": "/static/assets/icons/lock.svg"
+        },
+        {
+            "id": 4,
+            "title": "UI/UX Design",
+            "Img": "/static/assets/icons/pen.svg"
+        },
+        {
+            "id": 5,
+            "title": "Graphic Design",
+            "Img": "/static/assets/icons/graphic.svg"
+        },
+        {
+            "id": 6,
+            "title": "Digital Marketing",
+            "Img": "/static/assets/icons/speakerphone.svg"
+        }
     ]
 }
