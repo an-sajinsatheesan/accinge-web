@@ -17,19 +17,59 @@ const ClientFeedback: React.FC = () => {
                         <div className="row-span-3">
                             <div className='rounded-3xl border border-gray-100 bg-white p-8 drop-shadow-lg shadow-grey-300/50 dark:border-gray-700 dark:bg-gray-800 dark:shadow-none sm:col-span-2 sm:px-12 lg:col-span-1 lg:row-span-2'>
                                 <Image src="/static/assets/client-color/itc_logo.png" alt="" width={180} height={40} />
-                                <div className="e">Their extensive technology capabilities proved invaluable in the project, as they exponentially enhanced the initial project ideas, exceeding what we had hoped for.</div>
+                                <div className="mt-3">Their extensive technology capabilities proved invaluable in the project, as they exponentially enhanced the initial project ideas, exceeding what we had hoped for.<br></br><br></br> Their deep expertise and innovative approach not only met our expectations but also elevated the project to new heights.We were consistently impressed with their ability to adapt to challenges, provide creative solutions, and deliver results that far surpassed our initial vision. <br></br><br></br>
+                                    We were consistently impressed with their ability to adapt to challenges, provide creative solutions, and deliver results that far surpassed our initial vision. 
+                                    Their contribution went far beyond our expectations, and we highly recommend their services to anyone seeking a trusted partner for transformative technology projects.
+                                    <br></br></div>
+                                <div className="img-sec mt-3 flex gap-2">
+                                    <Image src="/static/assets/user-img.jpg" alt="" width={50} height={50} className='rounded-full' />
+                                    <div className="details-sec">
+                                        <div className="name">
+                                            Lewis Hamilton
+                                        </div>
+                                        <div className="text-gray-400 text-sm">
+                                            General Manager - ITC
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <div className="col-span-1">
                             <div className='rounded-3xl border border-gray-100 bg-white p-8 drop-shadow-lg shadow-gray-600/10 dark:border-gray-700 dark:bg-gray-800 dark:shadow-none sm:col-span-2 sm:px-12 lg:col-span-1 lg:row-span-2'>
-                                <Image src="/static/assets/client-color/itc_logo.png" alt="" width={180} height={40} />
-                                <div className="e">Their extensive technology capabilities proved invaluable in the project, as they exponentially enhanced the initial project ideas, exceeding what we had hoped for.</div>
+                                <Image src="/static/assets/client-color/honda-logo.png" alt="" width={140} height={30} />
+                                <div className="mt-4">Their team responded proactively to sudden market demands by offering insightful recommendations and delivering exceptional work.
+                                    This partnership has set a new standard for excellence, and we look forward to many more collaborations in the future</div>
+                                <div className="img-sec mt-3 flex gap-2 items-center">
+                                    <Image src="/static/assets/user-img.jpg" alt="" width={50} height={50} className='rounded-full' />
+                                    <div className="details-sec">
+                                        <div className="name">
+                                            Max Verstappan
+                                        </div>
+                                        <div className="text-gray-400 text-sm">
+                                            General Manager - Honda
+                                        </div>
+                                    </div>
+                                </div>
+
                             </div>
                         </div>
                         <div className="row-span-2 col-span-1">
                             <div className='rounded-3xl border border-gray-100 bg-white p-8 drop-shadow-lg shadow-gray-600/10 dark:border-gray-700 dark:bg-gray-800 dark:shadow-none sm:col-span-2 sm:px-12 lg:col-span-1 lg:row-span-2'>
-                                <Image src="/static/assets/client-color/itc_logo.png" alt="" width={180} height={40} />
-                                <div className="e">Their extensive technology capabilities proved invaluable in the project, as they exponentially enhanced the initial project ideas, exceeding what we had hoped for.</div>
+                                <Image src="/static/assets/client-color/logo_cupola.png" alt="" width={140} height={30} />
+                                <div className="mt-3">They displayed amazing reactivity to unanticipated market swings, providing insightful advice and constantly generating work of great quality.
+                                    Their commitment to excellence made the entire process efficient and enjoyable.</div>
+                                <div className="img-sec mt-4 flex gap-2">
+                                    <Image src="/static/assets/user-img.jpg" alt="" width={50} height={50} className='rounded-full' />
+                                    <div className="details-sec">
+                                        <div className="name">
+                                            Charles Sergio 
+                                        </div>
+                                        <div className="text-gray-400 text-sm">
+                                            General Manager - Cupola
+                                        </div>
+                                    </div>
+                                </div>
+
                             </div>
                         </div>
                     </div>
