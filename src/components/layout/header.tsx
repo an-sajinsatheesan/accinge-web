@@ -35,12 +35,12 @@ const Header: React.FC = () => {
                     </a>
                     <Image src="/static/assets/logo-removebg-preview.png" alt="" width={70} height={70} />
                 </div>
-                <ul className="flex gap-8">
+                <ul className="flex gap-12">
                     <li><a href="#" className="text-black">Home</a></li>
                     <li><a href="#" className="text-black">Products</a></li>
                     <li><a href="#" className="text-black">Services</a></li>
                     <li><a href="#" className="text-black">About</a></li>
-                    <li><a href="#" className="text-black">Contact</a></li>
+                    <li><a href="#" className="text-white border-btn">Contact</a></li>
                 </ul>
             </div>
         </nav>

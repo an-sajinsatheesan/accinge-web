@@ -24,7 +24,7 @@ const Industries: React.FC = () => {
                         <div className='industry-card-sec drop-shadow-lg shadow-gray-600/10' key={item.id}>
                             <div className="grid grid-cols-1">
                                 <div className="img-sec">
-                                    <Image src={item.Img} alt="" width={350} height={240} className='w-100 rounded-t-[10px] brightness-50' layout="responsive"/>
+                                    <Image src={item.Img} alt="" width={350} height={240} className='w-100 rounded-t-[10px]' layout="responsive"/>
                                 </div>
                                 <div className="detail-sec p-3">
                                     <p className='card-heading'>{item.title}</p>
