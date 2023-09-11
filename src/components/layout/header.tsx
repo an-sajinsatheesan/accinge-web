@@ -1,9 +1,32 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Image from 'next/image';
 
 const Header: React.FC = () => {
+
+    useEffect(() => {
+        const handleScroll = () => {
+            const scroll = window.scrollY;
+            const header = document.querySelector('nav');
+            
+            if (header) {
+                if (scroll >= 60) {
+                    header.classList.add('border-b', 'border-gray-100', 'bg-white/50', 'backdrop-blur');
+                } else {
+                    header.classList.remove('border-b', 'border-gray-100', 'bg-white/50', 'backdrop-blur');
+                }
+            }
+        };
+
+        window.addEventListener('scroll', handleScroll);
+
+        return () => {
+            // Clean up the event listener when the component unmounts
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, []);
+
     return <header>
-        <nav className=" p-3 w-full fixed z-10 border-b border-gray-100 bg-white/50 backdrop-blur ">
+        <nav className=" p-3 w-full fixed z-10" id='header-sec'>
             <div className="max-w-6xl mx-auto flex justify-between items-center ">
                 <div className='flex'>
                     <a href="#" className="text-[#00a669] text-2xl font-medium">
