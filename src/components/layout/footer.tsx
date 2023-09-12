@@ -2,11 +2,11 @@ import Image from 'next/image';
 import React from 'react';
 
 const Footer: React.FC = () => {
-    return <footer className="border-t border-gray-100 pt-24 pb-8">
+    return <footer className="border-t border-gray-100 pt-8 md:pt-24 pb-8">
         <div className="m-auto space-y-8 px-4 text-gray-600 sm:px-12 xl:max-w-6xl xl:px-0">
             <div className="grid grid-cols-8 gap-6 md:gap-0">
                 <div className="col-span-8 md:col-span-2 lg:col-span-4">
-                    <div className="flex h-full items-center justify-between gap-6 py-6 md:flex-col md:items-start md:justify-between md:space-y-6 md:border-none md:py-0">
+                    <div className="flex flex-col md:flex-row h-full md:items-center items-start justify-between gap-6 py-6 md:flex-col md:items-start md:justify-between md:space-y-6 md:border-none md:py-0">
                         <div className='flex flex-col'>
                             <div className="flex ">
                                 <a href="#" className="text-[#00a669] text-2xl font-medium">
@@ -18,7 +18,7 @@ const Footer: React.FC = () => {
                             {/* <h5 className="banner-subtitle max-w-md pt-2">Accinge provides software solutions as well as bespoke software development services for corporate establishments and government sectors in UAE and EMEA region.</h5> */}
                             <div className="flex flex-col">
                                 {/* <h2 className="text-base font-medium text-gray-900 py-2 font-bold">Contact Us</h2> */}
-                                <div className="flex items-center gap-4 py-2">
+                                <div className="flex flex-col lg:flex-row items-start lg:items-center gap-2 md:gap-4 py-2">
                                     <div className="flex items-center">
                                         <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><path d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z" /></svg>
                                         <div className="text-base font-sm text-gray-600 pl-2">info@accinge.com</div>
