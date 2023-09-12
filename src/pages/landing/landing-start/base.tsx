@@ -11,7 +11,7 @@ const BaseBody: React.FC = () => {
         <>
             <div className="bg-[url('https://salient.tailwindui.com/_next/static/media/background-faqs.55d2e36a.jpg')] bg-no-repeat bg-center bg-cover overflow-hidden">
                 <div className="max-w-6xl mx-auto py-40">
-                    <div className="flex gap-36 items-center">
+                    <div className="flex gap-36 items-center px-8 lg:p-0">
                         <div className="relative">
                             <h1 className='banner-title'>Solution For Your</h1>
                             <h2 className='banner-title'>Every IT Bussiness</h2>
@@ -27,7 +27,7 @@ const BaseBody: React.FC = () => {
                             </div>
 
                         </div>
-                        <div className="">
+                        <div className="hidden md:block">
                             <Image src={Banner} alt="" width={540} height={540} layout="responsive" placeholder="blur" />
                         </div>
 

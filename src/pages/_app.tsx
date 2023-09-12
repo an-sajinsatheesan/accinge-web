@@ -17,7 +17,7 @@ function MyApp({ Component, pageProps }: AppPropsWithLayout) {
     return getLayout(
         <>
             <Head>
-                <title>Accinge</title>
+                <title>Accinge Technologies</title>
                 <link rel="icon" href="/favicon.ico" />
                 <meta name="description" content="Your project description." />
             </Head>

@@ -24,12 +24,12 @@ const ClientFeedback: React.FC = () => {
                                 <div className="img-sec mt-3 flex gap-2">
                                     <Image src="/static/assets/user-img.jpg" alt="" width={50} height={50} className='rounded-full' />
                                     <div className="details-sec">
-                                        <div className="name">
+                                        {/* <div className="name">
                                             Lewis Hamilton
                                         </div>
                                         <div className="text-gray-400 text-sm">
                                             General Manager - ITC
-                                        </div>
+                                        </div> */}
                                     </div>
                                 </div>
                             </div>
@@ -42,12 +42,12 @@ const ClientFeedback: React.FC = () => {
                                 <div className="img-sec mt-3 flex gap-2 items-center">
                                     <Image src="/static/assets/user-img.jpg" alt="" width={50} height={50} className='rounded-full' />
                                     <div className="details-sec">
-                                        <div className="name">
+                                        {/* <div className="name">
                                             Max Verstappan
                                         </div>
                                         <div className="text-gray-400 text-sm">
                                             General Manager - Honda
-                                        </div>
+                                        </div> */}
                                     </div>
                                 </div>
 
@@ -61,12 +61,12 @@ const ClientFeedback: React.FC = () => {
                                 <div className="img-sec mt-4 flex gap-2">
                                     <Image src="/static/assets/user-img.jpg" alt="" width={50} height={50} className='rounded-full' />
                                     <div className="details-sec">
-                                        <div className="name">
+                                        {/* <div className="name">
                                             Charles Sergio 
                                         </div>
                                         <div className="text-gray-400 text-sm">
                                             General Manager - Cupola
-                                        </div>
+                                        </div> */}
                                     </div>
                                 </div>
 

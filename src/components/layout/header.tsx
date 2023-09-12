@@ -28,6 +28,7 @@ const Header: React.FC = () => {
     return <header>
         <nav className=" p-3 w-full fixed z-10" id='header-sec'>
             <div className="max-w-6xl mx-auto flex justify-between items-center ">
+            <Image src="/static/assets/hamburger.svg" alt="" width={50} height={50} className='block md:hidden' />
                 <div className='flex'>
                     <a href="#" className="text-[#00a669] text-2xl font-medium">
                         ACC<span className='text-black'>INGE</span>
@@ -35,7 +36,7 @@ const Header: React.FC = () => {
                     </a>
                     <Image src="/static/assets/logo-removebg-preview.png" alt="" width={70} height={70} />
                 </div>
-                <ul className="flex gap-12">
+                <ul className="hidden gap-12 md:flex">
                     <li><a href="#" className="text-black">Home</a></li>
                     <li><a href="#" className="text-black">Products</a></li>
                     <li><a href="#" className="text-black">Services</a></li>
