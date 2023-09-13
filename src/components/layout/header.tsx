@@ -49,7 +49,7 @@ const Header: React.FC = () => {
                         <li><a href="#" className="text-black">Home</a></li>
                         <li><a href="#" className="text-black">Products</a></li>
                         <li><a href="#" className="text-black">Services</a></li>
-                        <li><a href="#" className="text-black">About</a></li>
+                        <li><a href="about" className="text-black">About</a></li>
                         <li><a href="#" className="text-white border-btn">Contact</a></li>
                     </ul>
                 </div>
