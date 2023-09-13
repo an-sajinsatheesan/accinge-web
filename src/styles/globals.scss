@@ -144,6 +144,17 @@ body {
     background-size: cover;
 }
 
+.product {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    @media (max-width: 700px) {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
+
 .product:after {
     content: "";
     position: absolute;

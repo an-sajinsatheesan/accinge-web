@@ -6,7 +6,7 @@ import Image from 'next/image';
 const Products: React.FC = () => {
     return (
         <>
-            <div className="p-3 md:py-40 overflow-hidden product relative">
+            <div className="overflow-hidden product relative">
                 <div className="grid grid-cols-1 lg:grid-cols-2 max-w-6xl mx-auto gap-8">
                     <div className='card-sec drop-shadow-lg shadow-gray-600/10 z-[9]'>
                         <div className="grid grid-cols-3 items-center justify-between">
