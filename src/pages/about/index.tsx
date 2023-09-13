@@ -1,8 +1,14 @@
- import Layout from '@/components/layout/layout';
+import Layout from '@/components/layout/layout';
 import { NextPageWithLayout } from '@/types/page';
+ import styles from './about.module.css';
+
 
 const About: NextPageWithLayout = () => {
-    return <p>This is the About page.</p>;
+    return <>
+        <div className='h-80 w-100'>
+            <div className={styles.about}></div>
+        </div>
+    </>
 };
 
 About.getLayout = function getLayout(page) {

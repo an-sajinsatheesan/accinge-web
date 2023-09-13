@@ -1,8 +1,9 @@
 import Layout from '@/components/layout/layout';
 import { NextPageWithLayout } from '@/types/page';
+import Landing from './landing';
 
 const Home: NextPageWithLayout = () => {
-    return <p>This is the home page.</p>;
+    return <><Landing/></>;
 };
 
 Home.getLayout = function getLayout(page) {

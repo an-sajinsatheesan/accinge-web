@@ -1,7 +1,15 @@
 import Head from "next/head";
 import 'bootstrap/dist/css/bootstrap.css'
-import '../styles/globals.scss';
 import { AppPropsWithLayout } from '@/types/page';
+import '@/styles/globals.scss'
+import { Poppins } from 'next/font/google'
+const poppins = Poppins({
+    subsets: ['latin'],
+    weight: "400",
+    style:"normal"
+})
+
+
 
 function MyApp({ Component, pageProps }: AppPropsWithLayout) {
     const getLayout = Component.getLayout ?? ((page) => page);
@@ -9,9 +17,13 @@ function MyApp({ Component, pageProps }: AppPropsWithLayout) {
     return getLayout(
         <>
             <Head>
-                <meta name="viewport" content="width=device-width, initial-scale=1" />
+                <title>Accinge Technologies</title>
+                <link rel="icon" href="/favicon.ico" />
+                <meta name="description" content="Your project description." />
             </Head>
-            <Component {...pageProps} />
+            <main className={poppins.className}>
+                <Component {...pageProps} />
+            </main>
         </>
     );
 }
