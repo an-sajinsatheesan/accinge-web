@@ -11,7 +11,7 @@ const Products: React.FC = () => {
                     <div className='card-sec drop-shadow-lg shadow-gray-600/10 z-[9]'>
                         <div className="grid grid-cols-3 items-center justify-between">
                             <div className="col-span-2 ">
-                                <h4 className='card-heading'>Human Resource Management System</h4>
+                                <h4 className='card-heading md:max-w-sm'>Human Resource Management System</h4>
                                 <h2 className='card-subheading  md:max-h-32'>With our comprehensive Human Resource Management System, which is created to
                                     streamline administration and promote
                                     organizational success and you can transform your HR ....</h2>
