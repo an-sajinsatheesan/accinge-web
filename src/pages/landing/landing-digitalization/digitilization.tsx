@@ -9,8 +9,8 @@ const Digitalization: React.FC = () => {
     return (
         <>
             <div className=" pb-32 overflow-hidden">
-            <h1 className='sub-green-heading text-center py-4'>Partners</h1>
-                <h1 className='max-w-6xl mx-auto w-100 grid justify-center banner-title py-8 text-center'>Together Towards Digitalization</h1>
+            <h1 className='sub-green-heading text-center p-0 md:py-4'>Partners</h1>
+                <h1 className='max-w-6xl mx-auto w-100 grid justify-center banner-title p-3 md:py-8 text-center'>Together Towards Digitalization</h1>
                 <h1 className='max-w-4xl mx-auto w-100 banner-subtitle text-center p-3 md:pb-4'>Join us on our journey towards digitalization, where we harness cutting-edge technology, innovation, and collaboration to create a future where connectivity and efficiency define every aspect of our world.</h1>
 
                 <div className="grid grid-cols-1 lg:grid-cols-5 md:grid-cols-2 max-w-6xl mx-auto gap-8 p-3 md:p-0">

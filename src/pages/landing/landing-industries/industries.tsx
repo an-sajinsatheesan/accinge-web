@@ -11,7 +11,7 @@ const Industries: React.FC = () => {
     console.log()
     return (
         <>
-            <div className=" pb-40 overflow-hidden relative">
+            <div className=" pb-12 md:pb-40 overflow-hidden relative">
                 {/* <div className="absolute inset-0 top-40 grid grid-cols-2 -space-x-52 opacity-50 dark:opacity-30">
                     <div className="h-40 bg-gradient-to-br from-[#1565c0] to-[#c084fc] blur-[106px] dark:from-blue-700"></div>
                     <div className="h-60 bg-gradient-to-r from-cyan-400 to-sky-300 blur-[106px] dark:to-indigo-600"></div>
