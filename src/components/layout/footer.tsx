@@ -5,8 +5,8 @@ const Footer: React.FC = () => {
     return <footer className="border-t border-gray-100 pt-8 md:pt-24 pb-8">
         <div className="m-auto space-y-8 px-4 text-gray-600 sm:px-12 xl:max-w-6xl xl:px-0">
             <div className="grid grid-cols-8 gap-6 md:gap-0">
-                <div className="col-span-8 md:col-span-2 lg:col-span-4">
-                    <div className="flex flex-col md:flex-row h-full md:items-center items-start justify-between gap-6 py-6 md:flex-col md:items-start md:justify-between md:space-y-6 md:border-none md:py-0">
+                <div className="col-span-8 md:col-span-4 lg:col-span-4">
+                    <div className="flex flex-col md:flex-row h-full items-start justify-between gap-6 py-6 md:flex-col md:items-start md:justify-between md:space-y-6 md:border-none md:py-0">
                         <div className='flex flex-col'>
                             <div className="flex ">
                                 <a href="#" className="text-[#00a669] text-2xl font-medium">
@@ -58,7 +58,7 @@ const Footer: React.FC = () => {
                         </div>
                     </div>
                 </div>
-                <div className="col-span-8 md:col-span-6 lg:col-span-4">
+                <div className="col-span-8 md:col-span-4 lg:col-span-4">
                     <div className="grid grid-cols-4 gap-6 pb-16">
                         <div className='col-span-2'>
                             <h2 className="text-base font-medium text-gray-800">Company</h2>

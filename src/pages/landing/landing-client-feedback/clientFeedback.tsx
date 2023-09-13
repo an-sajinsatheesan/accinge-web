@@ -14,7 +14,7 @@ const ClientFeedback: React.FC = () => {
                 <h1 className='sub-green-heading p-0 md:py-4 text-center'>Trusted Clients</h1>
                     <h1 className='w-100 grid justify-center banner-title p-3 text-center md:p-0'>See What Our Clients Believe</h1>
                     <h1 className='banner-subtitle text-center py-4 max-w-4xl mx-auto w-100 banner-subtitle text-center p-3 md:p-0'>Step into our world and witness the invincible trust in our services, an affirmation to our passion as well as excellence in what we do.</h1>
-                    <div className="p-3 md:mt-12 grid gap-8 md:grid-cols-2 md:p-0">
+                    <div className="p-3 grid gap-8 md:grid-cols-2 md:p-0">
 
                         <div className='rounded-3xl border border-gray-100 bg-white p-8 shadow-2xl shadow-gray-600/10 sm:col-span-2 sm:px-12 lg:col-span-1 lg:row-span-2'>
                             <Image src="/static/assets/client-color/itc_logo.png" alt="ITC logo" width={180} height={40} />
