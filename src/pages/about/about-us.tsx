@@ -2,8 +2,8 @@ import SectionHeading from '@/components/common/section-heading';
 import Image from 'next/image';
 import React, { useState } from 'react';
 import IndustryHeadingList from './../../shared/json/heading.json';
-import Digitalization from '../landing/landing-digitalization/digitilization';
-import ConatactUs from '../landing/landing-contact-us/ContactUs';
+import Digitalization from '../home/landing-digitalization/digitilization';
+import ConatactUs from '../home/landing-contact-us/ContactUs';
 
 
 
@@ -42,7 +42,7 @@ const AboutUs: React.FC = () => {
                 </div>
 
                 <div className="flex flex-col lg:flex-row gap-4 pb-10">
-                    <Image src="/static/assets/choose-us.png" alt="" width={460} height={460} className='drop-shadow-lg shadow-gray-600/10' />
+                    <Image src="/static/assets/choose-us.png" alt="team" width={460} height={460} className='drop-shadow-lg shadow-gray-600/10' />
                     <div className="flex flex-col ">
                         <SectionHeading heading={heading.heading} mainTitle={heading.mainTitle} subTitle={heading.subTitle} />
                         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 max-w-6xl mx-auto gap-8">

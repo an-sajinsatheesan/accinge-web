@@ -1,6 +1,6 @@
 import Layout from '@/components/layout/layout';
 import { NextPageWithLayout } from '@/types/page';
-import Landing from './landing';
+import Landing from './home';
 
 const Home: NextPageWithLayout = () => {
     return <><Landing/></>;

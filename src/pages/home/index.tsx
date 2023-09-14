@@ -7,9 +7,11 @@ import Technologies from './landing-technology/technology';
 import TrustedBrands from './landing-trusted-clients';
 import ClientFeedback from './landing-client-feedback/clientFeedback';
 import ConatactUs from './landing-contact-us/ContactUs';
+import { NextPageWithLayout } from '@/types/page';
+import Layout from '@/components/layout/layout';
 
 
-const Landing: React.FC = () => {
+const Landing: NextPageWithLayout = () => {
     return (
         <>
 
@@ -25,6 +27,10 @@ const Landing: React.FC = () => {
         </>
 
     );
+};
+
+Landing.getLayout = function getLayout(page) {
+    return <Layout>{page}</Layout>;
 };
 
 export default Landing;

@@ -46,21 +46,21 @@ const Header: React.FC = () => {
                         <Image src="/static/assets/logo-removebg-preview.png" alt="" width={70} height={70} />
                     </div>
                     <ul className="hidden gap-12 md:flex">
-                        <li><a href="#" className="text-black">Home</a></li>
-                        <li><a href="#" className="text-black">Products</a></li>
-                        <li><a href="#" className="text-black">Services</a></li>
+                        <li><a href="home" className="text-black">Home</a></li>
+                        {/* <li><a href="products" className="text-black">Products</a></li> */}
+                        <li><a href="products" className="text-black">Services</a></li>
                         <li><a href="about" className="text-black">About</a></li>
-                        <li><a href="#" className="text-white border-btn">Contact</a></li>
+                        <li><a href="#" className="text-black">Contact Us</a></li>
                     </ul>
                 </div>
                 {/* <div id="layer" aria-hidden="true" className="fixed inset-0 z-10 h-screen w-screen origin-bottom scale-y-0 bg-white/70 backdrop-blur-2xl transition duration-500 dark:bg-gray-900/70 lg:hidden"></div> */}
                 { clickEvent && <div className="absolute h-[32rem] w-full bg-white flex flex-col rounded-3xl drop-shadow-lg shadow-gray-600/10 transition-all ease-in duration-300 delay-150">
                     <div className="flex flex-col gap-8 rounded-3xl p-10">
-                        <div className='p-2'><a href="#" className="text-gray-600 text-xl">Home</a></div>
-                        <div className='p-2'><a href="#" className="text-gray-600 text-xl">Products</a></div>
-                        <div className='p-2'><a href="#" className="text-gray-600 text-xl">Services</a></div>
-                        <div className='p-2'><a href="#" className="text-gray-600 text-xl">About</a></div>
-                        <div className='p-2 w-full'><div className="text-white border-btn text-lg w-full text-center">Contact US</div></div>
+                        <div className='p-2'><a href="home" className="text-gray-600 text-xl">Home</a></div>
+                        {/* <div className='p-2'><a href="#" className="text-gray-600 text-xl">Products</a></div> */}
+                        <div className='p-2'><a href="products" className="text-gray-600 text-xl">Services</a></div>
+                        <div className='p-2'><a href="about" className="text-gray-600 text-xl">About</a></div>
+                        <div className='p-2 w-full'><div className="text-white border-btn text-lg w-full text-center">Contact Us</div></div>
                     </div>
                 </div>}
 
