@@ -18,7 +18,7 @@ const Landing: React.FC = () => {
             <Products/>
             <Technologies/>
             <ClientFeedback/>
-            <Industries/>
+            <Industries isShowHeading={true}/>
             <Digitalization/>
             <ConatactUs/>
 

@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import React, { useState } from 'react';
 import styles from './landing.module.scss';
-import BrandList from './../data.json';
+import BrandList from '././../../../shared/json/data.json';
 
 
 

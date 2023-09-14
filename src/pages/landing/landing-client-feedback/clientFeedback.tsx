@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Image from 'next/image';
-import DigitalList from './../data.json';
+import DigitalList from './../../../shared/json/data.json';
 
 
 const ClientFeedback: React.FC = () => {
@@ -11,7 +11,7 @@ const ClientFeedback: React.FC = () => {
             <div className="pb-12 md:pb-40 overflow-hidden">
                 <Image src="/static/assets/overlayMd.webp" alt="" width={1580} height={300} className='w-100' />
                 <div className="max-w-6xl mx-auto">
-                <h1 className='sub-green-heading p-0 md:py-4 text-center'>Trusted Clients</h1>
+                    <h1 className='sub-green-heading p-0 md:py-4 text-center'>Trusted Clients</h1>
                     <h1 className='w-100 grid justify-center banner-title p-3 text-center md:p-0'>See What Our Clients Believe</h1>
                     <h1 className='banner-subtitle text-center py-4 max-w-4xl mx-auto w-100 banner-subtitle text-center p-3 md:p-0'>Step into our world and witness the invincible trust in our services, an affirmation to our passion as well as excellence in what we do.</h1>
                     <div className="p-3 grid gap-8 md:grid-cols-2 md:p-0">
