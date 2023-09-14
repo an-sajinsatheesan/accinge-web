@@ -1,7 +1,6 @@
 import Layout from '@/components/layout/layout';
 import { NextPageWithLayout } from '@/types/page';
-import styles from './about.module.css';
-import AboutUs from './about-us';
+ import AboutUs from './about-us';
 
 
 const About: NextPageWithLayout = () => {
