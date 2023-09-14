@@ -21,7 +21,7 @@ const Landing: NextPageWithLayout = () => {
             <Technologies/>
             <ClientFeedback/>
             <Industries isShowHeading={true}/>
-            <Digitalization/>
+            <Digitalization isShowHeading={true}/>
             <ConatactUs/>
 
         </>

@@ -7,6 +7,7 @@ import { PageHeading } from '@/components/common/page-heading';
 import { Mission } from './mission';
 import { Vision } from './vision';
 import { ColumnCard } from '@/components/common/column-card';
+import Digitalization from '../home/landing-digitalization/digitilization';
 
 const arr = [
     { title: "Agile methodology" },
@@ -45,6 +46,7 @@ const AboutUs: React.FC = () => {
                     </div>
                 </div>
             </div >
+            {/* <Digitalization isShowHeading={true}/> */}
             <ConatactUs />
 
         </>

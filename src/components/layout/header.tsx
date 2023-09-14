@@ -3,9 +3,10 @@ import Image from 'next/image';
 import Hamburger from './../../../public/static/assets/hamburger.svg'
 import Close from './../../../public/static/assets/close.svg'
 import Link from 'next/link';
+import { useRouter } from 'next/router';
 
 const Header: React.FC = () => {
-
+    const router = useRouter(); 
     const [clickEvent, setHamburgerClick] = useState<any>(false);
 
     const handleHamburger = () => {
