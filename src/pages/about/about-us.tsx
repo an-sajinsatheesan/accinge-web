@@ -31,8 +31,17 @@ const AboutUs: React.FC = () => {
                             creativity, and a never-ending quest of perfection.&rdquo;</h5>
                     </div>
                 </div>
+                <div className="grid grid-cols-1 lg:grid-cols-4 max-w-6xl mx-auto gap-12 pb-44">
+                    <div className="col-span-2 grid items-center justify-center">
+                        <h5 className='text-lg text-slate-800 font-semibold tracking-widest'> &ldquo;We aspire to establish a future in which innovative technology can be seamlessly incorporated into everyday life. We are devoted to developing software solutions that transcend borders, improve user experiences, and drive company success by encouraging innovation and embracing evolving trends. Join us in creating a digital environment that expands opportunities and enhances the globe.&rdquo;</h5>
+                    </div>
+                    <div className="col-span-2 grid items-center justify-center gap-4">
+                        <h5 className='text-8xl font-semibold tracking-widest text-[#c1b7b7]'>OUR</h5>
+                        <h5 className='text-8xl text-slate-800 font-semibold tracking-widest'>VISION</h5>
+                    </div>
+                </div>
 
-                <div className="flex gap-4 pb-40">
+                <div className="flex flex-col lg:flex-row gap-4 pb-40">
                     <Image src="/static/assets/choose-us.png" alt="" width={460} height={460} className='drop-shadow-lg shadow-gray-600/10' />
                     <div className="flex flex-col ">
                         <SectionHeading heading={heading.heading} mainTitle={heading.mainTitle} subTitle={heading.subTitle} />
@@ -65,10 +74,8 @@ const AboutUs: React.FC = () => {
 
                     </div>
                 </div>
-                <Digitalization />
-
             </div >
-            <Image src="/static/assets/overlayMd.webp" alt="" width={1580} height={300} className='w-100 rotate-180' layout="responsive"/>
+            <ConatactUs />
 
         </>
 

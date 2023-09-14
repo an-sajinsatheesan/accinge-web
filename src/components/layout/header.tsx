@@ -46,7 +46,7 @@ const Header: React.FC = () => {
                         <Image src="/static/assets/logo-removebg-preview.png" alt="" width={70} height={70} />
                     </div>
                     <ul className="hidden gap-12 md:flex">
-                        <li><a href="" className="text-black">Home</a></li>
+                        <li><a href="#" className="text-black">Home</a></li>
                         <li><a href="#" className="text-black">Products</a></li>
                         <li><a href="#" className="text-black">Services</a></li>
                         <li><a href="about" className="text-black">About</a></li>
