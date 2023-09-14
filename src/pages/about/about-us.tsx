@@ -41,7 +41,7 @@ const AboutUs: React.FC = () => {
                     </div>
                 </div>
 
-                <div className="flex flex-col lg:flex-row gap-4 pb-40">
+                <div className="flex flex-col lg:flex-row gap-4 pb-10">
                     <Image src="/static/assets/choose-us.png" alt="" width={460} height={460} className='drop-shadow-lg shadow-gray-600/10' />
                     <div className="flex flex-col ">
                         <SectionHeading heading={heading.heading} mainTitle={heading.mainTitle} subTitle={heading.subTitle} />
