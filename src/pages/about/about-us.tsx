@@ -2,6 +2,8 @@ import SectionHeading from '@/components/common/section-heading';
 import Image from 'next/image';
 import React, { useState } from 'react';
 import IndustryHeadingList from './../../shared/json/heading.json';
+import Digitalization from '../landing/landing-digitalization/digitilization';
+import ConatactUs from '../landing/landing-contact-us/ContactUs';
 
 
 
@@ -11,15 +13,26 @@ const AboutUs: React.FC = () => {
 
     return (
         <>
-            <div className="contact-card h-[300px]">
-                <div className="flex flex-col w-full md:w-10/12 items-center justify-around md:flex-row p-3 md:p-0 gap-2">
+            <div className="bg-[url('https://tailwindui.com/img/beams-pricing.png')] bg-no-repeat bg-center bg-cover overflow-hidden h-[350px]">
+                <div className="flex flex-col w-full h-full items-center justify-around md:flex-row p-3 md:p-0 gap-2">
                     <div className="max-w-lg text-4xl font-semibold leading-9">
                         About Us
                     </div>
                 </div>
             </div>
             <div className='max-w-7xl mx-auto py-20'>
-                <div className="flex gap-4">
+                <div className="grid grid-cols-1 lg:grid-cols-4 max-w-6xl mx-auto gap-12 pb-44">
+                    <div className="col-span-2 grid items-center justify-center gap-4">
+                        <h5 className='text-8xl font-semibold tracking-widest text-[#c1b7b7]'>OUR</h5>
+                        <h5 className='text-8xl text-slate-800 font-semibold tracking-widest'>MISSION</h5>
+                    </div>
+                    <div className="col-span-2 grid items-center justify-center">
+                        <h5 className='text-lg text-slate-800 font-semibold tracking-widest'> &ldquo; We endeavor to come up with cutting-edge solutions that not only meet but surpass our clients expectations, with an uncompromising dedication to excellence. Our skilled team utilizes the power of technological advances to create high-quality, scalable, and efficient software products. Take part in us as we define the future of software development through innovation,
+                            creativity, and a never-ending quest of perfection.&rdquo;</h5>
+                    </div>
+                </div>
+
+                <div className="flex gap-4 pb-40">
                     <Image src="/static/assets/choose-us.png" alt="" width={460} height={460} className='drop-shadow-lg shadow-gray-600/10' />
                     <div className="flex flex-col ">
                         <SectionHeading heading={heading.heading} mainTitle={heading.mainTitle} subTitle={heading.subTitle} />
@@ -52,8 +65,10 @@ const AboutUs: React.FC = () => {
 
                     </div>
                 </div>
+                <Digitalization />
 
-            </div>
+            </div >
+            <Image src="/static/assets/overlayMd.webp" alt="" width={1580} height={300} className='w-100 rotate-180' layout="responsive"/>
 
         </>
 
