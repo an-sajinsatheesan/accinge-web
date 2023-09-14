@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Image from 'next/image';
-import DigitalList from './../data.json';
+import DigitalList from './../../../shared/json/data.json';
 
 
 const ClientFeedback: React.FC = () => {
@@ -8,10 +8,12 @@ const ClientFeedback: React.FC = () => {
 
     return (
         <>
-            <div className="pb-12 md:pb-40 overflow-hidden">
+
+{/* pb-12 md:pb-40 */}
+            <div className=" overflow-hidden">
                 <Image src="/static/assets/overlayMd.webp" alt="" width={1580} height={300} className='w-100' />
-                <div className="max-w-6xl mx-auto">
-                <h1 className='sub-green-heading p-0 md:py-4 text-center'>Trusted Clients</h1>
+                {/* <div className="max-w-6xl mx-auto">
+                    <h1 className='sub-green-heading p-0 md:py-4 text-center'>Trusted Clients</h1>
                     <h1 className='w-100 grid justify-center banner-title p-3 text-center md:p-0'>See What Our Clients Believe</h1>
                     <h1 className='banner-subtitle text-center py-4 max-w-4xl mx-auto w-100 banner-subtitle text-center p-3 md:p-0'>Step into our world and witness the invincible trust in our services, an affirmation to our passion as well as excellence in what we do.</h1>
                     <div className="p-3 grid gap-8 md:grid-cols-2 md:p-0">
@@ -25,12 +27,12 @@ const ClientFeedback: React.FC = () => {
                             <div className="img-sec mt-3 flex gap-2">
                                 <Image src="/static/assets/user-img.jpg" alt="" width={50} height={50} className='rounded-full' />
                                 <div className="details-sec">
-                                    {/* <div className="name">
-                                            Lewis Hamilton
-                                        </div>
-                                        <div className="text-gray-400 text-sm">
-                                            General Manager - ITC
-                                        </div> */}
+                                    <div className="name">
+                                        Lewis Hamilton
+                                    </div>
+                                    <div className="text-gray-400 text-sm">
+                                        General Manager - ITC
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -43,12 +45,12 @@ const ClientFeedback: React.FC = () => {
                             <div className="img-sec mt-3 flex gap-2 items-center">
                                 <Image src="/static/assets/user-img.jpg" alt="" width={50} height={50} className='rounded-full' />
                                 <div className="details-sec">
-                                    {/* <div className="name">
+                                    <div className="name">
                                             Max Verstappan
                                         </div>
                                         <div className="text-gray-400 text-sm">
                                             General Manager - Honda
-                                        </div> */}
+                                        </div>
                                 </div>
                             </div>
 
@@ -62,19 +64,19 @@ const ClientFeedback: React.FC = () => {
                             <div className="img-sec mt-4 flex gap-2">
                                 <Image src="/static/assets/user-img.jpg" alt="" width={50} height={50} className='rounded-full' />
                                 <div className="details-sec">
-                                    {/* <div className="name">
+                                    <div className="name">
                                             Charles Sergio 
                                         </div>
                                         <div className="text-gray-400 text-sm">
                                             General Manager - Cupola
-                                        </div> */}
+                                        </div>
                                 </div>
                             </div>
 
                         </div>
 
                     </div>
-                </div>
+                </div> */}
             </div>
         </>
 

@@ -4,8 +4,10 @@ const path = require('path')
 
 const nextConfig = {
     reactStrictMode: true, 
-    distDir: 'build',
     output: 'export',
+    images: {
+        unoptimized: true
+    },
     sassOptions: {
         includePaths: [path.join(__dirname, 'styles')],
     },

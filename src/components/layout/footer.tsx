@@ -64,7 +64,7 @@ const Footer: React.FC = () => {
                             <h2 className="text-base font-medium text-gray-800">Company</h2>
                             <ul className="mt-4 list-outside space-y-4">
                                 <li>
-                                    <a href="#" className="text-sm hover:text-cyan-900">About</a>
+                                    <a href="about" className="text-sm hover:text-cyan-900">About</a>
                                 </li>
                                 <li>
                                     <a href="#" className="text-sm hover:text-cyan-900">Products</a>

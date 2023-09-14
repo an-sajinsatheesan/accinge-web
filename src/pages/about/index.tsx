@@ -1,13 +1,12 @@
 import Layout from '@/components/layout/layout';
 import { NextPageWithLayout } from '@/types/page';
- import styles from './about.module.css';
+import styles from './about.module.css';
+import AboutUs from './about-us';
 
 
 const About: NextPageWithLayout = () => {
     return <>
-        <div className='h-80 w-100'>
-            <div className={styles.about}></div>
-        </div>
+        <AboutUs />
     </>
 };
 
