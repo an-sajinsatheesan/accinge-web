@@ -7,7 +7,7 @@ import Banner from './../../../../public/static/assets/banner_image.png';
 const BaseBody: React.FC = () => {  
     return (
         <>
-            <div className="bg-[url('https://salient.tailwindui.com/_next/static/media/background-faqs.55d2e36a.jpg')] bg-no-repeat bg-center bg-cover overflow-hidden">
+            <div className="bg-[url('./../../public/static/assets/background-gradient.jpg')] bg-no-repeat bg-center bg-cover overflow-hidden">
                 <div className="max-w-6xl mx-auto py-28 md:py-40">
                     <div className="flex gap-36 items-center p-3 md:px-8 lg:p-0">
                         <div className="relative">
