@@ -2,9 +2,11 @@ import React, { useEffect, useState } from 'react';
 import Image from 'next/image';
 import Hamburger from './../../../public/static/assets/hamburger.svg'
 import Close from './../../../public/static/assets/close.svg'
+import Link from 'next/link';
+import { useRouter } from 'next/router';
 
 const Header: React.FC = () => {
-
+    const router = useRouter(); 
     const [clickEvent, setHamburgerClick] = useState<any>(false);
     const [clickServiceEvent, setServiceEvent] = useState<any>(false);
 
@@ -44,47 +46,24 @@ const Header: React.FC = () => {
                 <div className="max-w-6xl mx-auto flex justify-between items-center relative">
                     <Image src={clickEvent ? Close : Hamburger} alt="" width={50} height={50} className='block md:hidden' onClick={() => handleHamburger()} />
                     <div className='flex'>
-                        <a href="#" className="text-[#00a669] text-2xl font-medium">
+                        <Link href="/" className="text-[#00a669] text-2xl font-medium">
                             ACC<span className='text-black'>INGE</span>
                             <p className='text-black text-xs'>TECHNOLOGIES</p>
-                        </a>
+                        </Link >
                         <Image src="/static/assets/logo-removebg-preview.png" alt="" width={70} height={70} />
                     </div>
                     <ul className="hidden gap-12 md:flex">
-                        <li><a href="home" className="text-black">Home</a></li>
-                        {/* <li><a href="products" className="text-black">Products</a></li> */}
-                        <li className='relative' onClick={() => handleServiceEvent()}><div className="text-black">Services</div>
-                        
-                            {clickServiceEvent && <div id="dropdown" className="z-10 absolute bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700">
-                                <ul className="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownDefaultButton">
-                                    <li>
-                                        <a href="#" className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Government</a>
-                                    </li>
-                                    <li>
-                                        <a href="#" className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Banking</a>
-                                    </li>
-                                    <li>
-                                        <a href="#" className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Constrution</a>
-                                    </li>
-                                    <li>
-                                        <a href="#" className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Retail</a>
-                                    </li>
-                                </ul>
-                            </div>}
-                        </li>
-                        <li><a href="about" className="text-black">About</a></li>
-                        <li><a href="#" className="text-black">Contact Us</a></li>
+                        <li><Link href="home" className="text-black">Home</Link ></li>
+                        <li><Link href="products" className="text-black">Services</Link ></li>
+                        <li><Link href="about" className="text-black">About</Link ></li>
+                        <li><Link href="#" className="text-black">Contact Us</Link ></li>
                     </ul>
                 </div>
-
-
-                {/* <div id="layer" aria-hidden="true" className="fixed inset-0 z-10 h-screen w-screen origin-bottom scale-y-0 bg-white/70 backdrop-blur-2xl transition duration-500 dark:bg-gray-900/70 lg:hidden"></div> */}
                 {clickEvent && <div className="absolute h-[32rem] w-full bg-white flex flex-col rounded-3xl drop-shadow-lg shadow-gray-600/10 transition-all ease-in duration-300 delay-150">
                     <div className="flex flex-col gap-8 rounded-3xl p-10">
-                        <div className='p-2'><a href="home" className="text-gray-600 text-xl">Home</a></div>
-                        {/* <div className='p-2'><a href="#" className="text-gray-600 text-xl">Products</a></div> */}
-                        <div className='p-2'><a href="products" className="text-gray-600 text-xl">Services</a></div>
-                        <div className='p-2'><a href="about" className="text-gray-600 text-xl">About</a></div>
+                        <div className='p-2'><Link href="home" className="text-gray-600 text-xl">Home</Link ></div>
+                        <div className='p-2'><Link href="products" className="text-gray-600 text-xl">Services</Link ></div>
+                        <div className='p-2'><Link href="about" className="text-gray-600 text-xl">About</Link ></div>
                         <div className='p-2 w-full'><div className="text-white border-btn text-lg w-full text-center">Contact Us</div></div>
                     </div>
                 </div>}
