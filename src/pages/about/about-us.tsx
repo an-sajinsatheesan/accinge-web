@@ -33,7 +33,6 @@ const AboutUs: React.FC = () => {
                     <div className="flex flex-col ">
                         <SectionHeading heading={heading.heading} mainTitle={heading.mainTitle} subTitle={heading.subTitle} />
                         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 max-w-6xl mx-auto gap-8">
-
                             {
                                 arr.map((item, index) => {
                                     return (

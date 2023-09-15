@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
 import Image from 'next/image';
 import DigitalList from './../../../shared/json/data.json';
+import SectionHeading from '@/components/common/section-heading';
+import DigitalHeadingList from './../../../shared/json/heading.json'
+
 
 interface SectionControlInterface {
     isShowHeading: boolean;
@@ -8,6 +11,7 @@ interface SectionControlInterface {
 
 const Digitalization: React.FC<SectionControlInterface> = ({isShowHeading}: SectionControlInterface) => {
     const [digital, setDigitalList] = useState<any>(DigitalList.digital);
+    const [heading, setHeading] = useState<Heading>(DigitalHeadingList.Digitilization);
 
     return (
         <>
@@ -15,9 +19,7 @@ const Digitalization: React.FC<SectionControlInterface> = ({isShowHeading}: Sect
                 {
                     isShowHeading &&
                     <>
-                        <h1 className='sub-green-heading text-center p-0 md:py-4'>Partners</h1>
-                        <h1 className='max-w-6xl mx-auto w-100 grid justify-center banner-title p-3 md:py-8 text-center'>Together Towards Digitalization</h1>
-                        <h1 className='max-w-4xl mx-auto w-100 banner-subtitle text-center p-3 md:pb-4'>Join us on our journey towards digitalization, where we harness cutting-edge technology, innovation, and collaboration to create a future where connectivity and efficiency define every aspect of our world.</h1>
+                        <SectionHeading heading={heading.heading} mainTitle={heading.mainTitle} subTitle={heading.subTitle} />
                     </>
                 }
 
