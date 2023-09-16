@@ -26,8 +26,8 @@ const BaseBody: React.FC = () => {
                             </div>
 
                         </div>
-                        <div className="hidden md:block">
-                            <Image src={Banner} alt="" width={540} height={540} layout="responsive" placeholder="blur" />
+                        <div className="hidden md:block w-[440px] h-[440px]">
+                            <Image src={Banner} alt="Banner" width={340} height={340} layout="responsive" placeholder="blur" />
                         </div> 
                     </div> 
                 </div> 

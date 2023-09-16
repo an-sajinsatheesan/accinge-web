@@ -55,7 +55,6 @@ const Header: React.FC = () => {
                     <ul className="hidden gap-12 md:flex">
                         <li><Link href="home" className="text-black">Home</Link ></li>
                         <li><Link href="products" className="text-black">Services</Link ></li>
-                        
                         <li><Link href="about" className="text-black">About</Link ></li>
                         <li><Link href="#" className="text-black">Contact Us</Link ></li>
                     </ul>
