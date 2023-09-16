@@ -9,6 +9,8 @@ import ClientFeedback from './landing-client-feedback/clientFeedback';
 import ConatactUs from './landing-contact-us/ContactUs';
 import { NextPageWithLayout } from '@/types/page';
 import Layout from '@/components/layout/layout';
+import Company from './landing-company/company';
+import ProminentFeilds from './landing-feilds/feilds';
 
 
 const Landing: NextPageWithLayout = () => {
@@ -17,9 +19,11 @@ const Landing: NextPageWithLayout = () => {
 
             <BaseBody />
             <TrustedBrands/>
+            <Company/>
             <Products/>
             <Technologies/>
             <ClientFeedback/>
+            <ProminentFeilds/>
             <Industries isShowHeading={true}/>
             <Digitalization isShowHeading={true}/>
             <ConatactUs/>
