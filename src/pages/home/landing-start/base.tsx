@@ -1,15 +1,15 @@
 import Image from 'next/image';
 import React, { useState } from 'react';
-import Banner from './../../../../public/static/assets/banner_image.png';
+import Banner from './../../../../public/static/assets/banner_image.webp';
  
 
 
 const BaseBody: React.FC = () => {  
     return (
         <>
-            <div className="bg-[url('./../../public/static/assets/background-gradient.jpg')] bg-no-repeat bg-center bg-cover overflow-hidden">
+            <div className="bg-[url('./../../public/static/assets/background-gradient.webp')] bg-no-repeat bg-center bg-cover overflow-hidden">
                 <div className="max-w-6xl mx-auto py-28 md:py-40">
-                    <div className="flex gap-36 items-center p-3 md:px-8 lg:p-0">
+                    <div className="flex gap-48 items-center p-3 md:px-8 lg:p-0">
                         <div className="relative">
                             <h1 className='banner-title'>Solution For Your</h1>
                             <h2 className='banner-title'>Every IT Bussiness</h2>

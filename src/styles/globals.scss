@@ -19,32 +19,21 @@
 
 html,
 body {
-    font-size: 16px;
+    font-size: 12px;
     font-family: 'Poppins', sans-serif;
+    @screen sm {
+        font-size: 14px;
+    }
+
+    @screen md {
+        font-size: 16px;
+    }
+
+    @media (min-width: 1920px) {
+        font-size: 20px;
+    }
 }
 
-
-/* Triangle */
-.triangle {
-    position: absolute;
-    height: 400px;
-    width: 400px;
-    background-color: rgba(23, 92, 255, 0.07);
-    border-radius: 70px;
-    transform: rotate(45deg);
-}
-
-.one {
-    left: -12%;
-    top: 50%;
-    transform: translateY(-50%) rotate(45deg);
-}
-
-.two {
-    right: -13%;
-    bottom: -13%;
-    z-index: 1;
-}
 
 .banner-title {
     font-size: 2.5rem;
@@ -115,7 +104,7 @@ body {
     border-radius: 10px;
     // border: 1px solid #00a669;
     background-color: #ffffff;
-    background-image: url('./../../public/static/assets/beams-pricing.png');
+    background-image: url('./../../public/static/assets/beams-pricing.webp');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -138,7 +127,7 @@ body {
     // border: 1px solid #00a669;
     background-color: #ffffff;
     z-index: 9;
-    background-image: url('https://tailwindui.com/img/beams-pricing.png');
+    background-image: url('./../../public/static/assets/beams-pricing.webp');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

@@ -50,7 +50,7 @@ const Header: React.FC = () => {
                             ACC<span className='text-black'>INGE</span>
                             <p className='text-black text-xs'>TECHNOLOGIES</p>
                         </Link >
-                        <Image src="/static/assets/logo-removebg-preview.png" alt="" width={70} height={70} />
+                        <Image src="/static/assets/logo-removebg-preview.webp" alt="" width={70} height={70} />
                     </div>
                     <ul className="hidden gap-12 md:flex">
                         <li><Link href="home" className="text-black">Home</Link ></li>
