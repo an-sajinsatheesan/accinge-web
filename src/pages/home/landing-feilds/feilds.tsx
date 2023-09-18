@@ -23,7 +23,7 @@ const ProminentFeilds: React.FC = () => {
                         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 max-w-7xl mx-auto gap-8">
                             {List?.length && List.map((item: any, index: any) => (
                                 <div key={item.id}>
-                                    <FeildCard img={item.img} mainTitle={item.mainTitle} subTitle={item.subTitle} key={item.id} />
+                                    <FeildCard col={item.col} img={item.img} mainTitle={item.mainTitle} subTitle={item.subTitle} key={item.id} />
                                 </div>
                             ))}
                         </div>

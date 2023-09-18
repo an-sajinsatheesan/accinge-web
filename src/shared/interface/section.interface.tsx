@@ -6,6 +6,7 @@ interface Heading {
 }
 
 interface Feilds {
+    col:any
     img: any;
     mainTitle: string;
     subTitle: string;

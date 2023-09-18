@@ -2,24 +2,28 @@
     "serviceSector": [
         {
             "id": 1,
+            "col":"bg-bl",
             "img": "/static/assets/govt.svg",
             "mainTitle": "Government",
             "subTitle": "We provide tailored solutions and expertise to streamline operations and enhance efficiency within government agencies"
         },
         {
             "id": 2,
+            "col":"bg-grey",
             "img": "/static/assets/bank.svg",
             "mainTitle": "Banking",
             "subTitle": "We provide tailored solutions and expertise to streamline operations and enhance efficiency within government agencies"
         },
         {
             "id": 3,
+            "col":"bg-org",
             "img": "/static/assets/construct.svg",
             "mainTitle": "Construction",
             "subTitle": "We provide tailored solutions and expertise to streamline operations and enhance efficiency within government agencies"
         },
         {
             "id": 4,
+            "col":"bg-green",
             "img": "/static/assets/retail.svg",
             "mainTitle": "Retail",
             "subTitle": "We provide tailored solutions and expertise to streamline operations and enhance efficiency within government agencies"
