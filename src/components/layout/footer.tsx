@@ -14,7 +14,7 @@ const Footer: React.FC = () => {
                                     ACC<span className='text-black'>INGE</span>
                                     <p className='text-black text-xs'>TECHNOLOGIES</p>
                                 </Link >
-                                <Image src="/static/assets/logo-removebg-preview.png" alt="" width={70} height={70} />
+                                <Image src="/static/assets/logo-removebg-preview.webp" alt="" width={70} height={70} />
                             </div>
                             {/* <h5 className="banner-subtitle max-w-md pt-2">Accinge provides software solutions as well as bespoke software development services for corporate establishments and government sectors in UAE and EMEA region.</h5> */}
                             <div className="flex flex-col">

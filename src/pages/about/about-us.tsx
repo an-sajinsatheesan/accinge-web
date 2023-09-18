@@ -29,7 +29,7 @@ const AboutUs: React.FC = () => {
                 <Mission />
                 <Vision />
                 <div className="flex flex-col lg:flex-row gap-4 pb-10">
-                    <Image src="/static/assets/choose-us.png" alt="team" width={460} height={460} className='drop-shadow-lg shadow-gray-600/10' />
+                    <Image src="/static/assets/choose-us.webp" alt="team" width={460} height={460} className='drop-shadow-lg shadow-gray-600/10' />
                     <div className="flex flex-col ">
                         <SectionHeading heading={heading.heading} mainTitle={heading.mainTitle} subTitle={heading.subTitle} />
                         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 max-w-6xl mx-auto gap-8">
