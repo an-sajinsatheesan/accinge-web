@@ -1,6 +1,6 @@
 
 
-export const Vision = () => {
+const Vision = () => {
     return (
         <div className="grid grid-cols-1 lg:grid-cols-4 max-w-6xl mx-auto gap-12 pb-44">
             <div className="col-span-2 grid items-center justify-center">
@@ -13,3 +13,4 @@ export const Vision = () => {
         </div>
     )
 }
+export default Vision;

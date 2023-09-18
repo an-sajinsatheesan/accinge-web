@@ -1,6 +1,6 @@
 
 
-export const Mission = () => {
+const Mission = () => {
     return <>
         <div className="grid grid-cols-1 lg:grid-cols-4 max-w-6xl mx-auto gap-12 pb-44">
             <div className="col-span-2 grid items-center justify-center gap-4">
@@ -14,3 +14,4 @@ export const Mission = () => {
         </div>
     </>
 }
+export default Mission;
