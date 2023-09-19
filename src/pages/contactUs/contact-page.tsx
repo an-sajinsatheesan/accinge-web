@@ -11,9 +11,9 @@ const ConatctDetails: React.FC = () => {
         <>
 
             <div className="max-w-7xl mx-auto mt-20">
-                <div className="flex w-100 gap-10">
+                <div className="flex w-100 gap-10 items-start">
                     <div className="w-2/5">
-                        <h5 className='text-6xl font-semibold tracking-widest text-[#c1b7b7]'>CONTACT US</h5>
+                        <h5 className='text-6xl font-semibold tracking-widest text-[#c1b7b7] mb-3'>CONTACT US</h5>
                         {/* <Image src="/static/assets/Accinge-Logo.png" alt="Arrow" width={225} height={125} className='' /> */}
                         <h1 className='text-[17px] tracking-[1px] leading-7 py-2'>Accinge provides software solutions as well as bespoke software development
                             services for corporate establishments and government sectors in UAE and EMEA region.</h1>
@@ -39,39 +39,34 @@ const ConatctDetails: React.FC = () => {
 
                     </div>
                     <div className="w-3/5 h-full border-2 border-gray-300 rounded-lg drop-shadow-md">
-                        <div className="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-8 p-3 md:p-0">
+                        <div className="grid grid-cols-1 lg:grid-cols-2 md:grid-cols-2 gap-2 p-3 md:p-0">
                             <div>
                                 <label htmlFor="" className='text-sm'>First Name :</label>
-                                <input type="text" className='border-2 border-gray-300 rounded-md focus:outline-none p-2 text-sm' />
-                            </div>
-                            <div>
-                                <label htmlFor="" className='text-sm'>Middle Name :</label>
-                                <input type="text" className='border-2 border-gray-300 rounded-md focus:outline-none  p-2 text-sm' />
+                                <input type="text" className='border-2 border-gray-300 w-100 rounded-md focus:outline-none p-2 text-sm' />
                             </div>
                             <div>
                                 <label htmlFor="" className='text-sm'>Last Name :</label>
-                                <input type="text" className='border-2 border-gray-300 rounded-md focus:outline-none  p-2 text-sm' />
+                                <input type="text" className='border-2 border-gray-300 w-100 rounded-md focus:outline-none  p-2 text-sm' />
                             </div>
-                            <div>
+                            <div className='col-span-2'>
                                 <label htmlFor="" className='text-sm'>Email :</label>
-                                <input type="text" className='border-2 border-gray-300 rounded-md focus:outline-none  p-2 text-sm' />
+                                <input type="text" className='border-2 border-gray-300 w-100 rounded-md focus:outline-none  p-2 text-sm' />
                             </div>
-                            <div>
-                                <label htmlFor="" className='text-sm'>Country :</label>
-                                <input type="text" className='border-2 border-gray-300 rounded-md focus:outline-none  p-2 text-sm' />
-                            </div>
-                            <div>
+                            <div className='col-span-2'>
                                 <label htmlFor="" className='text-sm'>Phone :</label>
-                                <input type="text" className='border-2 border-gray-300 rounded-md focus:outline-none  p-2 text-sm' />
-                            </div>
-                            <div className='col-span-3'>
-                                <label htmlFor="" className='text-sm'>Project Description :</label>
-                                <input type="text" className='border-2 border-gray-300 w-100 rounded-md focus:outline-none  p-2 text-sm h-[100px]' />
+                                <input type="text" className='border-2 border-gray-300 w-100 rounded-md focus:outline-none  p-2 text-sm' />
                             </div>
                             <button className='text-white border-btn text-lg w-full text-center col-span-3'>Submit</button>
 
                         </div>
                     </div>
+
+                </div>
+                <div className="w-full py-4">
+                    <iframe width="100%" height="300" frameBorder="0" scrolling="no"
+                        src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=2002,%20Prism%20Tower,%20Business%20Bay,%20PO%20Box:%20183570,%20Dubai,%20AE+(Accinge%20Technologies)&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
+                        <a href="https://www.maps.ie/population/">Population calculator map</a>
+                    </iframe>
                 </div>
             </div>
 
