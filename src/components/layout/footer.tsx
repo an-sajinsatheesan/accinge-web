@@ -88,7 +88,7 @@ const Footer: React.FC = () => {
                                     <Link href="#" className="text-sm hover:text-cyan-900">Training Management</Link >
                                 </li>
                                 <li>
-                                    <Link href="#" className="text-sm hover:text-cyan-900">Contact Us</Link >
+                                    <Link href="/contactUs" className="text-sm hover:text-cyan-900">Contact Us</Link >
                                 </li>
                             </ul>
                         </div>

@@ -2,7 +2,7 @@
 interface Heading {
     heading: string;
     mainTitle: string;
-    subTitle: string;
+    subTitle?: string;
 }
 
 interface Feilds {

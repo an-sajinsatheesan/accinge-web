@@ -195,6 +195,12 @@ body {
     border-bottom: 1px solid grey;
 }
 
+.contact-ip:focus {
+    outline: none;
+    // border: none;
+    // border-bottom: 1px solid grey;
+}
+
 .arrow-img {
     color: transparent;
     top: 0px;

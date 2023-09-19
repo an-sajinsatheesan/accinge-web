@@ -23,6 +23,17 @@
         "heading": "Service Sectors",
         "mainTitle": "We have brought for you",
         "subTitle": "We maintain a strong presence in diverse industries, staying in touch with evolving trends and technologies to deliver tailored solutions that drive success across various sectors"
+    },
+
+    "products": {
+        "heading": "OVERVIEW",
+        "mainTitle": "Human Resource Management System",
+        "subTitle": "HRMS (Human Resource Management Systems) are comprehensive software solutions designed to streamline various HR processes within an organization. These systems play a pivotal role in enhancing overall HR efficiency by automating and simplifying tasks that were traditionally time-consuming and paper-intensive.One of the key benefits of HRMS systems is their ability to significantly reduce paperwork. By digitizing employee records, performance appraisals, benefits administration, and other HR-related documents, organizations can save both time and resources previously allocated to manual documentation and storage."
+    },
+
+    "benefits": {
+        "heading": "BENEFITS",
+        "mainTitle": "What makes us special ?"
     }
 
 }
