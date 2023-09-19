@@ -4,8 +4,8 @@ import Image from "next/image"
 
 const FeildCard = ({ col, img, mainTitle, subTitle }: Feilds) => {
     return <>
-        <div className="">
-            <div className={`${col} rounded-3xl text-center p-3 shadow-2xl shadow-gray-600/10 sm:col-span-2 sm:px-12 lg:col-span-1 lg:row-span-2`}>
+        <div className="h-100">
+            <div className={`${col} h-100 rounded-3xl text-center p-3 shadow-2xl shadow-gray-600/10 sm:col-span-2 sm:px-12 lg:col-span-1 lg:row-span-2`}>
                 <div className='items-center flex w-100 justify-center'>
                     <Image src={img} alt="ITC logo" width={40} height={40} className='fill-[#FF9800]' />
                 </div>

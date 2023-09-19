@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import BaseBody from './landing-start/base';
 import Products from './landing-products/products';
 import Industries from './landing-industries/industries';
@@ -11,9 +11,11 @@ import { NextPageWithLayout } from '@/types/page';
 import Layout from '@/components/layout/layout';
 import Company from './landing-company/company';
 import ProminentFeilds from './landing-feilds/feilds';
+import IndustryList from './../../shared/json/data.json'
 
 
 const Landing: NextPageWithLayout = () => {
+    const [List, setIndustryList] = useState<any>(IndustryList.industries);
     return (
         <>
 
@@ -24,7 +26,7 @@ const Landing: NextPageWithLayout = () => {
             <Technologies/>
             <ClientFeedback/>
             <ProminentFeilds/>
-            <Industries isShowHeading={true}/>
+            <Industries isShowHeading={true} IndustryList={List}/>
             <Digitalization isShowHeading={true}/>
             <ConatactUs/>
 

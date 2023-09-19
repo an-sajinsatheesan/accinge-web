@@ -28,5 +28,43 @@
             "mainTitle": "Retail",
             "subTitle": "We provide tailored solutions and expertise to streamline operations and enhance efficiency within government agencies"
         }
+    ],
+    "featureSector": [
+        {
+            "id": 1,
+            "col":"bg-bl",
+            "img": "/static/assets/approval.svg",
+            "mainTitle": "Annual Leave calculation",
+            "subTitle": "We provide tailored solutions and expertise to streamline operations and enhance efficiency within government agencies"
+        },
+        {
+            "id": 2,
+            "col":"bg-grey",
+            "img": "/static/assets/bank.svg",
+            "mainTitle": "Variable Allowance / Deductions",
+            "subTitle": "We provide tailored solutions and expertise to streamline operations and enhance efficiency within government agencies"
+        },
+        {
+            "id": 3,
+            "col":"bg-org",
+            "img": "/static/assets/construct.svg",
+            "mainTitle": "Payroll Preparation",
+            "subTitle": "We provide tailored solutions and expertise to streamline operations and enhance efficiency within government agencies"
+        },
+        {
+            "id": 4,
+            "col":"bg-green",
+            "img": "/static/assets/allocation.svg",
+            "mainTitle": "Shift Allocations",
+            "subTitle": "We provide tailored solutions and expertise to streamline operations and enhance efficiency within government agencies"
+        },
+        {
+            "id": 5,
+            "col":"bg-yellow",
+            "img": "/static/assets/monitoring.svg",
+            "mainTitle": "OT Processing",
+            "subTitle": "We provide tailored solutions and expertise to streamline operations and enhance efficiency within government agencies"
+        }
+
     ]
 }
