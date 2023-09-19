@@ -56,16 +56,16 @@ const Footer: React.FC = () => {
                             <h2 className="text-base font-medium text-gray-800">Company</h2>
                             <ul className="mt-4 list-outside space-y-4">
                                 <li>
-                                    <Link href="about" className="text-sm hover:text-cyan-900">About</Link >
+                                    <Link href="/about" className="text-sm hover:text-cyan-900">About</Link >
                                 </li>
                                 <li>
-                                    <Link href="products" className="text-sm hover:text-cyan-900">Products</Link >
+                                    <Link shallow href="/products" className="text-sm hover:text-cyan-900">Products</Link >
                                 </li>
                                 <li>
-                                    <Link href="products" className="text-sm hover:text-cyan-900">Industries</Link >
+                                    <Link href="/products" className="text-sm hover:text-cyan-900">Industries</Link >
                                 </li>
                                 <li>
-                                    <Link href="home" className="text-sm hover:text-cyan-900">Partners</Link >
+                                    <Link href="/home" className="text-sm hover:text-cyan-900">Partners</Link >
                                 </li>
                                 <li>
                                     <Link href="#" className="text-sm hover:text-cyan-900">Careers</Link >
@@ -76,16 +76,16 @@ const Footer: React.FC = () => {
                             <h2 className="text-base font-medium text-gray-800">Products</h2>
                             <ul className="mt-4 list-outside space-y-4">
                                 <li>
-                                    <Link href="about" className="text-sm hover:text-cyan-900">About</Link >
+                                    <Link href="/about" className="text-sm hover:text-cyan-900">About</Link >
                                 </li>
                                 <li>
-                                    <Link href="/products" className="text-sm hover:text-cyan-900">Human Resource Management System</Link >
+                                    <Link href="/products/hrms" className="text-sm hover:text-cyan-900">Human Resource Management System</Link >
                                 </li>
                                 <li>
-                                    <Link href="products" className="text-sm hover:text-cyan-900">Enterprise Resource Planning</Link >
+                                    <Link href="/products" className="text-sm hover:text-cyan-900">Enterprise Resource Planning</Link >
                                 </li>
                                 <li>
-                                    <Link href="products" className="text-sm hover:text-cyan-900">Training Management</Link >
+                                    <Link href="/products" className="text-sm hover:text-cyan-900">Training Management</Link >
                                 </li>
                                 <li>
                                     <Link href="/contactUs" className="text-sm hover:text-cyan-900">Contact Us</Link >

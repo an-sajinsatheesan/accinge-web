@@ -54,9 +54,9 @@ const Header: React.FC = () => {
                     </div>
                     <ul className="hidden gap-12 md:flex">
                         <li><Link href="home" className="text-black">Home</Link ></li>
-                        <li><Link href="products" className="text-black">Products</Link ></li>
-                        <li><Link href="about" className="text-black">About</Link ></li>
-                        <li><Link href="contactUs" className="text-black">Contact Us</Link ></li>
+                        <li><Link href="/products" className="text-black">Products</Link ></li>
+                        <li><Link href="/about" className="text-black">About</Link ></li>
+                        <li><Link href="/contactUs" className="text-black">Contact Us</Link ></li>
                     </ul>
                 </div>
                 {clickEvent && <div className="absolute h-[32rem] w-full bg-white flex flex-col rounded-3xl drop-shadow-lg shadow-gray-600/10 transition-all ease-in duration-300 delay-150">
