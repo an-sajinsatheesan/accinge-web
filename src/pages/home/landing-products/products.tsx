@@ -35,7 +35,7 @@ const Products: React.FC = () => {
                             <div className="col-span-2">
                                 <h4 className='card-heading'>Enterprise Resource Planning</h4>
                                 <h2 className='card-subheading md:max-h-32'>With our comprehensive Enterprise Resource Planning application, you can successfully integrate, simplify and empower your whole business environment enhancing productivity and optimizing.....</h2>
-                                <button className="border-btn drop-shadow-lg shadow-grey-300/50">Learn more </button>
+                                <button className="border-btn drop-shadow-lg shadow-grey-300/50" onClick={handleProductClick}>Learn more </button>
                             </div>
 
                             <div className="grid justify-center">
