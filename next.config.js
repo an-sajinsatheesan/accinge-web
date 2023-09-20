@@ -3,7 +3,7 @@
 const path = require('path')
 
 const nextConfig = {
-    reactStrictMode: true, 
+    reactStrictMode: true,
     output: 'export',
     images: {
         unoptimized: true

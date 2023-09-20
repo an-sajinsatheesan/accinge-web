@@ -4,21 +4,22 @@ import IndustryList from './../../../shared/json/data.json';
 import IndustryHeadingList from './../../../shared/json/heading.json';
 import SectionHeading from '@/components/common/section-heading';
 
-interface SectionControlInterface {
+interface IndustriesInterface {
     isShowHeading: boolean;
+    IndustryList: any
 }
 
-const Industries: React.FC<SectionControlInterface> = ({ isShowHeading }: SectionControlInterface) => {
-    const [List, setIndustryList] = useState<any>(IndustryList.industries);
+
+const Industries: React.FC<IndustriesInterface> = ({ isShowHeading,IndustryList }: IndustriesInterface) => {
+    const [List, setIndustryList] = useState<any>(IndustryList);
     const [heading, setHeading] = useState<Heading>(IndustryHeadingList.industryHeading);
 
 
-    console.log()
     return (
         <>
             <div className=" pb-12 md:pb-40 overflow-hidden relative">
                 {isShowHeading && <SectionHeading heading={heading.heading} mainTitle={heading.mainTitle} subTitle={heading.subTitle} />}
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 max-w-6xl mx-auto gap-8 p-3 md:p-0">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 max-w-6xl mx-auto gap-8 p-3 sm:p-0 md:p-0 lg:p-0">
                     {List?.length && List.map((item: any, index: any) => (
                         <div className='industry-card-sec drop-shadow-lg shadow-gray-600/10' key={item.id}>
                             <div className="grid grid-cols-1">
@@ -34,7 +35,6 @@ const Industries: React.FC<SectionControlInterface> = ({ isShowHeading }: Sectio
                     ))}
                 </div>
             </div>
-
 
         </>
 

@@ -1,8 +1,8 @@
 
 interface Heading {
-    heading: string;
-    mainTitle: string;
-    subTitle: string;
+    heading?: string;
+    mainTitle?: string;
+    subTitle?: string;
 }
 
 interface Feilds {

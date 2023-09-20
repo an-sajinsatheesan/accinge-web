@@ -195,6 +195,12 @@ body {
     border-bottom: 1px solid grey;
 }
 
+.contact-ip:focus {
+    outline: none;
+    // border: none;
+    // border-bottom: 1px solid grey;
+}
+
 .arrow-img {
     color: transparent;
     top: 0px;
@@ -256,4 +262,24 @@ body {
 .bg-green {
     background-color: #dcffdc;
     border: 1px solid #a5cea5;
+}
+
+.bg-yellow {
+    background-color: #ffd08b;
+}
+
+.wewew {
+    .MuiTabs-indicator {
+        background-color: #FF9800 !important;
+    }
+    .Mui-selected {
+        color: #FF9800 !important;
+    }
+    .MuiTabs-flexContainer {
+        display: flex !important;
+        justify-content: space-between !important;
+    }
+    .MuiTabPanel-root {
+        padding: 0px !important;
+    }
 }
