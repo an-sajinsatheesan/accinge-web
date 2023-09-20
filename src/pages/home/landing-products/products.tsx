@@ -1,9 +1,16 @@
 import React from 'react';
 import styles from './landing.module.scss';
 import Image from 'next/image';
+import { useRouter } from 'next/router';
 
 
 const Products: React.FC = () => {
+    const router = useRouter();
+
+    const handleProductClick = () => {
+        router.push('/products/hrms');
+    };
+    
     return (
         <>
             <div className="overflow-hidden product relative">
@@ -15,7 +22,7 @@ const Products: React.FC = () => {
                                 <h2 className='card-subheading  md:max-h-32'>With our comprehensive Human Resource Management System, which is created to
                                     streamline administration and promote
                                     organizational success and you can transform your HR ....</h2>
-                                <button className="border-btn drop-shadow-lg shadow-grey-300/50">Learn more </button>
+                                <button className="border-btn drop-shadow-lg shadow-grey-300/50" onClick={handleProductClick}>Learn more </button>
                             </div>
 
                             <div className="grid justify-center">
@@ -28,7 +35,7 @@ const Products: React.FC = () => {
                             <div className="col-span-2">
                                 <h4 className='card-heading'>Enterprise Resource Planning</h4>
                                 <h2 className='card-subheading md:max-h-32'>With our comprehensive Enterprise Resource Planning application, you can successfully integrate, simplify and empower your whole business environment enhancing productivity and optimizing.....</h2>
-                                <button className="border-btn drop-shadow-lg shadow-grey-300/50">Learn more </button>
+                                <button className="border-btn drop-shadow-lg shadow-grey-300/50" onClick={handleProductClick}>Learn more </button>
                             </div>
 
                             <div className="grid justify-center">
