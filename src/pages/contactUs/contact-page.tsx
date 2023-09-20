@@ -15,7 +15,7 @@ const ConatctDetails: React.FC = () => {
                     <div className="w-2/4">
                         <h5 className='text-6xl font-semibold tracking-widest text-[#c1b7b7] mb-3'>CONTACT US</h5>
                         {/* <Image src="/static/assets/Accinge-Logo.png" alt="Arrow" width={225} height={125} className='' /> */}
-                        <h1 className='text-[17px] tracking-[1px] leading-7 py-4'>Accinge provides software solutions as well as bespoke software development
+                        <h1 className='text-[17px] leading-7 py-4'>Accinge provides software solutions as well as bespoke software development
                             services for corporate establishments and government sectors in UAE and EMEA region.</h1>
                         <div className="flex flex-col">
                             <div className="flex flex-col lg:flex-row items-start lg:items-center gap-2 md:gap-4 py-2">
@@ -40,25 +40,25 @@ const ConatctDetails: React.FC = () => {
                         </div>
 
                     </div>
-                    <div className="w-2/4 h-full border-2 border-gray-300 rounded-lg drop-shadow-md">
-                        <div className="grid grid-cols-1 lg:grid-cols-2 md:grid-cols-2 gap-2 p-3 md:p-0">
-                            <div>
-                                <label htmlFor="" className='text-sm'>First Name :</label>
-                                <input type="text" className='border-2 border-gray-300 w-100 rounded-md focus:outline-none p-2 text-sm' />
+                    <div className="w-2/4 h-full border-1 border-gray-300 rounded-lg">
+                        <div className="grid grid-cols-1 lg:grid-cols-2 md:grid-cols-2 gap-2 p-4 md:p-0">
+                            <div className='mb-3.5'>
+                                <label htmlFor="" className='text-black text-sm'>First Name :</label>
+                                <input type="text" className='border-1 border-gray-300 w-100 rounded-md focus:outline-none p-2 text-sm' />
                             </div>
-                            <div>
-                                <label htmlFor="" className='text-sm'>Last Name :</label>
-                                <input type="text" className='border-2 border-gray-300 w-100 rounded-md focus:outline-none  p-2 text-sm' />
+                            <div className='mb-3.5'>
+                                <label htmlFor="" className='text-black text-sm'>Last Name :</label>
+                                <input type="text" className='border-1 border-gray-300 w-100 rounded-md focus:outline-none  p-2 text-sm' />
                             </div>
-                            <div className='col-span-2'>
-                                <label htmlFor="" className='text-sm'>Email :</label>
-                                <input type="text" className='border-2 border-gray-300 w-100 rounded-md focus:outline-none  p-2 text-sm' />
+                            <div className='col-span-2 mb-3.5'>
+                                <label htmlFor="" className='text-black text-sm'>Email :</label>
+                                <input type="text" className='border-1 border-gray-300 w-100 rounded-md focus:outline-none  p-2 text-sm' />
                             </div>
-                            <div className='col-span-2'>
-                                <label htmlFor="" className='text-sm'>Phone :</label>
-                                <input type="text" className='border-2 border-gray-300 w-100 rounded-md focus:outline-none  p-2 text-sm' />
+                            <div className='col-span-2 mb-3.5'>
+                                <label htmlFor="" className='text-black text-sm'>Phone :</label>
+                                <input type="text" className='border-1 border-gray-300 w-100 rounded-md focus:outline-none  p-2 text-sm' />
                             </div>
-                            <button className='text-white border-btn text-lg w-full text-center col-span-3'>Submit</button>
+                            <button className='text-white border-btn text-lg w-full text-center col-span-3 mb-3.5'>Submit</button>
 
                         </div>
                     </div>

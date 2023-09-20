@@ -53,7 +53,7 @@ const Header: React.FC = () => {
                         <Image src="/static/assets/logo-removebg-preview.webp" alt="" width={70} height={70} />
                     </div>
                     <ul className="hidden gap-12 md:flex">
-                        <li><Link href="home" className="text-black">Home</Link ></li>
+                        <li><Link href="/home" className="text-black">Home</Link ></li>
                         <li><Link href="/products" className="text-black">Products</Link ></li>
                         <li><Link href="/about" className="text-black">About</Link ></li>
                         <li><Link href="/contactUs" className="text-black">Contact Us</Link ></li>
@@ -61,9 +61,9 @@ const Header: React.FC = () => {
                 </div>
                 {clickEvent && <div className="absolute h-[32rem] w-full bg-white flex flex-col rounded-3xl drop-shadow-lg shadow-gray-600/10 transition-all ease-in duration-300 delay-150">
                     <div className="flex flex-col gap-8 rounded-3xl p-10">
-                        <div className='p-2'><Link href="home" className="text-gray-600 text-xl">Home</Link ></div>
-                        <div className='p-2'><Link href="products" className="text-gray-600 text-xl">Products</Link ></div>
-                        <div className='p-2'><Link href="about" className="text-gray-600 text-xl">About</Link ></div>
+                        <div className='p-2'><Link href="/home" className="text-gray-600 text-xl">Home</Link ></div>
+                        <div className='p-2'><Link href="/products" className="text-gray-600 text-xl">Products</Link ></div>
+                        <div className='p-2'><Link href="/about" className="text-gray-600 text-xl">About</Link ></div>
                         <div className='p-2 w-full'><div className="text-white border-btn text-lg w-full text-center">Contact Us</div></div>
                     </div>
                 </div>}

@@ -35,11 +35,12 @@ const ProductsAndServices: NextPageWithLayout = () => {
                     <div className='w-[120px] h-[5px] bg-[#FF9800] rounded-lg'></div>
                     <div className="flex gap-2 items-center cursor-pointer" onClick={handleContactUsClick}>
                         <h1 className="text-lg text-black font-semibold tracking-[1px]">CONTACT US</h1>
-                        <Image src="/static/assets/arrow.svg" alt="Arrow" width={45} height={45} className='animate-bounce' />
+                        <Image src="/static/assets/arrow.svg" alt="Arrow" width={35} height={35} className='animate-ping' />
                     </div>
                 </div>
             </div>
             <SectionHeading heading={heading.heading} mainTitle={heading.mainTitle} subTitle={heading.subTitle} />
+            <div className="p-8"></div>
             <div className="text-4xl font-semibold leading-[3rem] text-center py-4">KEY <span className="text-[#FF9800] text-4xl font-semibold leading-[3rem]">FEATURES</span></div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 max-w-6xl mx-auto gap-8">
                 {List?.length && List.map((item: any, index: any) => (
@@ -48,13 +49,14 @@ const ProductsAndServices: NextPageWithLayout = () => {
                     </div>
                 ))}
             </div>
+            <div className="p-8"></div>
             <div className="mt-20 bg-[#fff1fe] h-full px-4 py-20">
                 <div className="max-w-7xl mx-auto">
                     <SectionHeading heading={intro.heading} mainTitle={intro.mainTitle} />
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 max-w-6xl mx-auto gap-8">
                         <div className="flex items-start gap-2">
                             <Image src="/static/assets/approval.svg" alt="Arrow" width={245} height={145} className='hover:animate-bounce' />
-                            <div className="text-sm">Right from blueprinting the mobile app’s user interface to developing the backend that runs on the cloud,
+                            <div className="text-sm leading-6">Right from blueprinting the mobile app’s user interface to developing the backend that runs on the cloud,
                                 we offer end-to-end mobile application development services.</div>
                         </div>
                         <div className="flex items-start gap-2">
@@ -64,22 +66,22 @@ const ProductsAndServices: NextPageWithLayout = () => {
                         </div>
                         <div className="flex items-start gap-2">
                             <Image src="/static/assets/approval.svg" alt="Arrow" width={245} height={145} className='hover:animate-bounce' />
-                            <div className="text-sm">Right from blueprinting the mobile app’s user interface to developing the backend that runs on the cloud,
+                            <div className="text-sm leading-6">Right from blueprinting the mobile app’s user interface to developing the backend that runs on the cloud,
                                 we offer end-to-end mobile application development services.</div>
                         </div>
                         <div className="flex items-start gap-2">
                             <Image src="/static/assets/monitoring.svg" alt="Arrow" width={245} height={145} className='hover:animate-bounce' />
-                            <div className="text-sm">Right from blueprinting the mobile app’s user interface to developing the backend that runs on the cloud,
+                            <div className="text-sm leading-6">Right from blueprinting the mobile app’s user interface to developing the backend that runs on the cloud,
                                 we offer end-to-end mobile application development services.</div>
                         </div>
                         <div className="flex items-start gap-2">
                             <Image src="/static/assets/approval.svg" alt="Arrow" width={245} height={145} className='hover:animate-bounce' />
-                            <div className="text-sm">Right from blueprinting the mobile app’s user interface to developing the backend that runs on the cloud,
+                            <div className="text-sm leading-6">Right from blueprinting the mobile app’s user interface to developing the backend that runs on the cloud,
                                 we offer end-to-end mobile application development services.</div>
                         </div>
                         <div className="flex items-start gap-2">
                             <Image src="/static/assets/approval.svg" alt="Arrow" width={245} height={145} className='hover:animate-bounce' />
-                            <div className="text-sm">Right from blueprinting the mobile app’s user interface to developing the backend that runs on the cloud,
+                            <div className="text-sm leading-6">Right from blueprinting the mobile app’s user interface to developing the backend that runs on the cloud,
                                 we offer end-to-end mobile application development services.</div>
                         </div>
                     </div>
@@ -87,6 +89,7 @@ const ProductsAndServices: NextPageWithLayout = () => {
 
 
             </div>
+            <div className="p-8"></div>
             <div className="mt-20">
                 <SectionHeading heading={benefits.heading} mainTitle={benefits.mainTitle} />
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 max-w-6xl mx-auto gap-8">
@@ -98,7 +101,7 @@ const ProductsAndServices: NextPageWithLayout = () => {
                 </div>
 
             </div >
-
+            <div className="p-8"></div>
             <div className="grid grid-cols-1 lg:grid-cols-4 max-w-6xl mx-auto gap-12 mt-20">
                 <div className="col-span-2 grid items-center justify-center gap-2">
                     {/* <h5 className='text-4xl font-semibold tracking-widest text-[#c1b7b7]'>Application Management and Administration</h5> */}
@@ -109,7 +112,7 @@ const ProductsAndServices: NextPageWithLayout = () => {
                         Effective HRMS management is critical for maintaining data accuracy, security, and delivering an exceptional employee experience.</h5>
                 </div>
             </div>
-
+            <div className="p-8"></div>
             <div className="grid grid-cols-1 lg:grid-cols-4 max-w-6xl mx-auto gap-12 mt-20">
                 <div className="col-span-2 grid items-center justify-center">
                     <h5 className='card-subheading'>Digital Fulfillment for HRMS customers involves providing a seamless, self-service experience. Users can access, customize, and manage HR-related processes online, from onboarding to benefits enrollment and performance management. This enhances user autonomy, efficiency, and reduces administrative burden,
@@ -121,7 +124,7 @@ const ProductsAndServices: NextPageWithLayout = () => {
                 </div>
 
             </div>
-
+            <div className="p-8"></div>
             <div className="grid grid-cols-1 lg:grid-cols-4 max-w-6xl mx-auto gap-12 mt-20">
                 <div className="col-span-2 grid items-center justify-center gap-2">
                     {/* <h5 className='text-4xl font-semibold tracking-widest text-[#c1b7b7]'>Application Management and Administration</h5> */}
