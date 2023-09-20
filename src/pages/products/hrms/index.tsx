@@ -108,14 +108,14 @@ const ProductsAndServices: NextPageWithLayout = () => {
                     <h5 className='text-4xl text-slate-800 font-semibold tracking-[1px]'>Application Management and Administration</h5>
                 </div>
                 <div className="col-span-2 grid items-center justify-center">
-                    <h5 className='card-subheading'> Application Management and Administration of a Human Resource Management System (HRMS) involves overseeing the entire HR technology ecosystem. This encompasses configuration, updates, data management, and user support. It ensures seamless integration, compliance, and optimization, allowing organizations to streamline HR processes, enhance workforce productivity, and make data-driven decisions for strategic HR planning.
+                    <h5 className='text-base text-black leading-8'> Application Management and Administration of a Human Resource Management System (HRMS) involves overseeing the entire HR technology ecosystem. This encompasses configuration, updates, data management, and user support. It ensures seamless integration, compliance, and optimization, allowing organizations to streamline HR processes, enhance workforce productivity, and make data-driven decisions for strategic HR planning.
                         Effective HRMS management is critical for maintaining data accuracy, security, and delivering an exceptional employee experience.</h5>
                 </div>
             </div>
             <div className="p-8"></div>
             <div className="grid grid-cols-1 lg:grid-cols-4 max-w-6xl mx-auto gap-12 mt-20">
                 <div className="col-span-2 grid items-center justify-center">
-                    <h5 className='card-subheading'>Digital Fulfillment for HRMS customers involves providing a seamless, self-service experience. Users can access, customize, and manage HR-related processes online, from onboarding to benefits enrollment and performance management. This enhances user autonomy, efficiency, and reduces administrative burden,
+                    <h5 className='text-base text-black leading-8'>Digital Fulfillment for HRMS customers involves providing a seamless, self-service experience. Users can access, customize, and manage HR-related processes online, from onboarding to benefits enrollment and performance management. This enhances user autonomy, efficiency, and reduces administrative burden,
                         ultimately empowering organizations to deliver a more agile and employee-centric HR service.</h5>
                 </div>
                 <div className="col-span-2 grid items-center justify-center gap-2">
@@ -131,7 +131,7 @@ const ProductsAndServices: NextPageWithLayout = () => {
                     <h5 className='text-4xl text-slate-800 font-semibold tracking-[1px]'>Flexible and scalable For Customers</h5>
                 </div>
                 <div className="col-span-2 grid items-center justify-center">
-                    <h5 className='card-subheading'> A flexible and scalable HRMS is designed to adapt to varying organizational needs. It accommodates growth, easily integrates with existing systems, and allows customization to match specific HR processes. This empowers customers to tailor their HR technology to evolving
+                    <h5 className='text-base text-black leading-8'> A flexible and scalable HRMS is designed to adapt to varying organizational needs. It accommodates growth, easily integrates with existing systems, and allows customization to match specific HR processes. This empowers customers to tailor their HR technology to evolving
                         requirements, ensuring long-term efficiency and effectiveness in workforce management.</h5>
                 </div>
             </div>
