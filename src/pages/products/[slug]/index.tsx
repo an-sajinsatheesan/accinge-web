@@ -1,8 +1,8 @@
 import SectionHeading from "@/components/common/section-heading";
 import Industries from "../../home/landing-industries/industries";
 import { useState } from "react";
-import FeildHeading from './../../../shared/json/heading.json'
-import ServiceList from './../../../shared/json/feild-card.json';
+import FeildHeading from '../../../shared/json/heading.json'
+import ServiceList from '../../../shared/json/feild-card.json';
 import ConatactUs from "../../home/landing-contact-us/ContactUs";
 import FeildCard from "@/components/common/feild-card";
 import Image from "next/image";

@@ -20,7 +20,7 @@ const ProductsServices: React.FC = () => {
     return (
         <>
 
-            <div className="max-w-6xl mx-auto wewew">
+            <div className="max-w-6xl mx-auto wewew ">
 
                 <Box sx={{ width: '100%', typography: 'body1' }}>
                     <TabContext value={value}>
@@ -34,17 +34,17 @@ const ProductsServices: React.FC = () => {
                             </TabList>
                         </Box>
                         <TabPanel value="1">
-                            <h1 className='w-100 text-lg text-start py-4 text-slate-900 md:pb-4'>Revolutionizing Government Operations by Harnessing Cutting-Edge, Secure, and Future-Ready Technology Solutions for Enhanced Efficiency, Effectiveness, Transparency, and Seamless Citizen Engagement, Leading the Way in Transforming Public Services.</h1>
+                            <h1 className='max-w-4xl mx-auto w-100 text-lg text-center py-4 px-3 text-slate-900 md:pb-4'>Revolutionizing Government Operations by Harnessing Cutting-Edge, Secure, and Future-Ready Technology Solutions for Enhanced Efficiency, Effectiveness, Transparency, and Seamless Citizen Engagement, Leading the Way in Transforming Public Services.</h1>
                             <Industries IndustryList={IndustryList.industries} isShowHeading={false} />
                         </TabPanel>
                         <TabPanel value="2">
-                            <h1 className=' w-100 text-lg text-start py-4 md:pb-4'>Empowering Banking Excellence with Our Commitment to Delivering Innovative, Secure, and Customer-Centric Financial Solutions That Foster Trust, Growth, and Prosperity in Todays Dynamic Financial Landscape.</h1>
+                            <h1 className='max-w-4xl mx-auto w-100 text-lg text-center py-4 px-3 md:pb-4'>Empowering Banking Excellence with Our Commitment to Delivering Innovative, Secure, and Customer-Centric Financial Solutions That Foster Trust, Growth, and Prosperity in Todays Dynamic Financial Landscape.</h1>
                             <Industries IndustryList={IndustryList.bankingIndustries} isShowHeading={false} /></TabPanel>
                         <TabPanel value="3">
-                            <h1 className=' w-100 text-lg text-start py-4 md:pb-4'>Pioneering the Future of Construction by Delivering Innovative Solutions for Enhanced Efficiency, Safety, Quality, and Sustainability in Building Projects, Leading the Industry Toward Excellence and Shaping the Landscape of Tomorrows Construction.</h1>
+                            <h1 className='max-w-4xl mx-auto w-100 text-lg text-center py-4 px-3 md:pb-4'>Pioneering the Future of Construction by Delivering Innovative Solutions for Enhanced Efficiency, Safety, Quality, and Sustainability in Building Projects, Leading the Industry Toward Excellence and Shaping the Landscape of Tomorrows Construction.</h1>
                             <Industries IndustryList={IndustryList.constructionIndustries} isShowHeading={false} /></TabPanel>
                         <TabPanel value="4">
-                            <h1 className='w-100 text-lg text-start py-4 md:pb-4'>Elevating Retail Success by Unleashing Innovative Solutions for Enhanced Customer Experience, Operational Excellence, Data-Driven Insights, and Seamless Omnichannel Integration, Redefining Retailing in the Digital Age.</h1>
+                            <h1 className='max-w-4xl mx-auto w-100 text-lg text-center py-4 px-3 md:pb-4'>Elevating Retail Success by Unleashing Innovative Solutions for Enhanced Customer Experience, Operational Excellence, Data-Driven Insights, and Seamless Omnichannel Integration, Redefining Retailing in the Digital Age.</h1>
                             <Industries IndustryList={IndustryList.retailIndustries} isShowHeading={false} /></TabPanel>
                     </TabContext>
                 </Box>

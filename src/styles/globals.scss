@@ -23,7 +23,7 @@ body {
     font-family: 'Poppins', sans-serif;
 
     @screen sm {
-        font-size: 14px;
+        font-size: 16px;
     }
 
     @screen md {
@@ -225,6 +225,14 @@ body {
     cursor: pointer;
     z-index: 9;
 
+
+    @media (max-width: 650px) {
+        top: -2px;
+        bottom: 0px;
+        right: 77px;
+        cursor: pointer;
+        z-index: 9;
+    }
 }
 
 .arrow-top {
@@ -270,6 +278,7 @@ body {
 }
 
 .wewew {
+
     .MuiTabs-indicator {
         background-color: #FF9800 !important;
     }
@@ -289,30 +298,11 @@ body {
 }
 
 
-// .content-div {
-//     background-image: url('https://images.unsplash.com/photo-1522093007474-d86e9bf7ba6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80');
-//     background-repeat: no-repeat;
-//     background-size: cover;
-//     background-position: center;
-// }
-
-
 
 .image-cover {
     height: 260px;
 }
 
-/*
-    -remove the classes below if you have the 'group-hover'property added in your tailwind config file
-    -also remove the class from the html template
-    */
-// .content-div:hover .fd-cl {
-//     opacity: 0.25;
-// }
-
-// .content-div:hover .fd-sh {
-//     opacity: 100;
-// }
 
 .know-more {
     opacity: 0;
@@ -329,12 +319,13 @@ body {
     flex-direction: column;
     justify-content: center;
     background-image:
-    linear-gradient(to right,
-        rgba(126, 213, 111, 0.801), hsla(160, 70%, 77%, 0.801))
+        linear-gradient(to right,
+            rgba(126, 213, 111, 0.801), hsla(160, 70%, 77%, 0.801))
 }
 
 .content-div:hover .know-more {
-    opacity: 1; /* 100% opacity */
+    opacity: 1;
+    /* 100% opacity */
     border-radius: 10px;
     height: 100%;
     width: 100%;
@@ -343,5 +334,22 @@ body {
     flex-direction: column;
     justify-content: center;
     background: linear-gradient(283.03deg, rgba(158, 244, 223, 0.7) -1.03%, rgba(255, 223, 253, 0.8) 76.1%);
+
+}
+
+.dskdsj {
+    display: flex;
+
+    @media (max-width: 1100px) {
+        flex-direction: column-reverse;
+    }
+
+}
+
+.asasas {
+
+    @media (max-width: 750px) {
+        padding: 1rem;
+    }
 
 }

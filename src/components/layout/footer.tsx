@@ -32,7 +32,7 @@ const Footer: React.FC = () => {
                                         <div className="text-base font-sm text-gray-600 pl-2">04 454 8909</div>
                                     </div>
                                 </div>
-                                <h2 className="text-base banner-subtitle font-sm text-gray-600 max-w-xs">2002, Prism Tower, Business Bay,<br></br> PO Box: 183570, Dubai, AE</h2>
+                                <h2 className="text-base font-sm text-gray-600 max-w-xs">2002, Prism Tower, Business Bay,<br></br> PO Box: 183570, Dubai, AE</h2>
                             </div>
                         </div>
 
