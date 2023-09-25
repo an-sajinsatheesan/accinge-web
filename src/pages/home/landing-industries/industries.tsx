@@ -1,6 +1,5 @@
 import Image from 'next/image';
 import React, { useState } from 'react';
-import IndustryList from './../../../shared/json/data.json';
 import IndustryHeadingList from './../../../shared/json/heading.json';
 import SectionHeading from '@/components/common/section-heading';
 import { useRouter } from 'next/router';
@@ -17,8 +16,8 @@ const Industries: React.FC<IndustriesInterface> = ({ isShowHeading, IndustryList
 
     const router = useRouter();
 
-    const handleContactUsClick = () => {
-        router.push('/products/hrms');
+    const handleContactUsClick = (url:any) => {
+        router.push(`/products/${url}`);
     };
 
 
@@ -40,7 +39,7 @@ const Industries: React.FC<IndustriesInterface> = ({ isShowHeading, IndustryList
                                 <div className="absolute know-more">
                                     <span className="text-2xl p-2 font-semibold text-black tracking-wider leading-tight font-sans">{item.title}</span>
                                     <div className="pt-8 text-center">
-                                        <button className="text-center rounded-lg p-3 bg-white text-gray-700 font-bold text-sm" onClick={handleContactUsClick}>Learn more</button>
+                                        <button className="text-center rounded-lg p-3 bg-white text-gray-700 font-bold text-sm" onClick={() => handleContactUsClick(item.url)}>Learn more</button>
                                     </div>
                                 </div>
                             </div>
