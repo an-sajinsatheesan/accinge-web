@@ -4,7 +4,7 @@ import React from 'react';
 
 const Footer: React.FC = () => {
     return <footer className="border-t border-gray-100 pt-8 md:pt-24 pb-8">
-        <div className="m-auto space-y-8 px-4 text-gray-600 sm:px-12 xl:max-w-6xl xl:px-0">
+        <div className="m-auto space-y-8 text-gray-600 sm:px-12 xl:max-w-6xl xl:px-0">
             <div className="grid grid-cols-8 gap-6 md:gap-0">
                 <div className="col-span-8 md:col-span-4 lg:col-span-4">
                     <div className="flex flex-col md:flex-row h-full items-start justify-between gap-6 py-6 md:flex-col md:items-start md:justify-between md:space-y-6 md:border-none md:py-0">
@@ -14,7 +14,7 @@ const Footer: React.FC = () => {
                                     ACC<span className='text-black'>INGE</span>
                                     <p className='text-black text-xs'>TECHNOLOGIES</p>
                                 </Link >
-                                <Image src="/static/assets/logo-removebg-preview.webp" alt="" width={70} height={70} />
+                                <Image src="/static/assets/logo-removebg-preview.webp" alt="logo" width={70} height={70} />
                             </div>
                             {/* <h5 className="banner-subtitle max-w-md pt-2">Accinge provides software solutions as well as bespoke software development services for corporate establishments and government sectors in UAE and EMEA region.</h5> */}
                             <div className="flex flex-col">
