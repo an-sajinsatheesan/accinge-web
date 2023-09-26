@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import BaseBody from './landing-start/base';
 import Products from './landing-products/products';
 import Industries from './landing-industries/industries';
@@ -16,19 +16,24 @@ import IndustryList from './../../shared/json/data.json'
 
 const Landing: NextPageWithLayout = () => {
     const [List, setIndustryList] = useState<any>(IndustryList.industries);
+
+ useEffect(() => {
+    document.title = 'Accinge Technologies | Solution For Your Every IT Bussiness';
+}, []);
+
     return (
         <>
 
             <BaseBody />
-            <TrustedBrands/>
-            <Company/>
-            <Products/>
-            <Technologies/>
-            <ClientFeedback/>
-            <ProminentFeilds/>
-            <Industries isShowHeading={true} IndustryList={List}/>
-            <Digitalization isShowHeading={true}/>
-            <ConatactUs/>
+            <TrustedBrands />
+            <Company />
+            <Products />
+            <Technologies />
+            <ClientFeedback />
+            <ProminentFeilds />
+            <Industries isShowHeading={true} IndustryList={List} />
+            <Digitalization isShowHeading={true} />
+            <ConatactUs />
 
         </>
 

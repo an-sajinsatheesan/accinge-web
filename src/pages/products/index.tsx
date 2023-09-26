@@ -5,16 +5,21 @@ import Industries from "../home/landing-industries/industries";
 import ConatactUs from "../home/landing-contact-us/ContactUs";
 import { PageHeading } from "@/components/common/page-heading";
 import ProductsServices from "./service-product";
+import { useEffect } from "react";
 
 
 
 const Product: NextPageWithLayout = () => {
+    useEffect(() => {
+        document.title = 'Products & Services | Accinge Technologies';
+    }, []);
+
     return (
-        <> 
-            <PageHeading Title={'Products & Services'}/>
-            <ProductsServices/>
+        <>
+            <PageHeading Title={'Products & Services'} />
+            <ProductsServices />
             <ConatactUs />
-        </> 
+        </>
     );
 };
 
