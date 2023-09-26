@@ -9,7 +9,7 @@ const BaseBody: React.FC = () => {
         <>
             <div className="bg-[url('./../../public/static/assets/background-gradient.webp')] bg-no-repeat bg-center bg-cover overflow-hidden">
                 <div className="max-w-6xl mx-auto py-28 md:py-40">
-                    <div className="flex gap-48 items-center asasas">
+                    <div className="flex gap-48 items-center padding-adj">
                         <div className="relative">
                             <h1 className='banner-title'>Solution For Your</h1>
                             <h2 className='banner-title'>Every IT Bussiness</h2>

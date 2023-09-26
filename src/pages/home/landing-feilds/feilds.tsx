@@ -16,7 +16,7 @@ const ProminentFeilds: React.FC = () => {
     console.log()
     return (
         <>
-            <div className="pb-12 md:pb-40 overflow-hidden py-8 relative asasas">
+            <div className="pb-12 md:pb-40 overflow-hidden py-8 relative padding-adj">
                 <div className="max-w-[93rem] mx-auto w-100 flex justify-center">
                     <div className='w-full py-3 md:w-8/12 md:p-0 flex flex-col justify-center items-center'>
                         <SectionHeading heading={heading.heading} mainTitle={heading.mainTitle} subTitle={heading.subTitle} />

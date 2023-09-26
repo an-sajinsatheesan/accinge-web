@@ -28,7 +28,7 @@ function MyApp({ Component, pageProps }: AppPropsWithLayout) {
                 <meta property="og:url" content="https://accingeapps.com/" />
                 <meta name="twitter:title" content="Accinge Technologies" />
                 <meta name="twitter:description" content="Accinge provides software solutions as well as bespoke software development services for corporate establishments and government sectors in UAE and EMEA region." />
-                <meta name="twitter:image" content="https://example.com/image.jpg" />
+                <meta name="twitter:image" content="https://accingeapps.com/static/assets/logo-removebg-preview.webp" />
                 <meta name="google-site-verification" content="2aqt3wFuSpp1c_O_-7Su7CvKHK4gOIqNeWG3y6NE6cg" />
                 <meta name="twitter:card" content="Accinge provides software solutions as well as bespoke software development services for corporate establishments and government sectors in UAE and EMEA region." />
             </Head>
