@@ -1,13 +1,13 @@
 import SectionHeading from '@/components/common/section-heading';
 import Image from 'next/image';
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import IndustryHeadingList from './../../shared/json/heading.json';
 import ConatactUs from '../home/landing-contact-us/ContactUs';
 import { PageHeading } from '@/components/common/page-heading';
 import { ColumnCard } from '@/components/common/column-card';
 import Digitalization from '../home/landing-digitalization/digitilization';
- import Vision from './vision';
-import Mission  from './mission';
+import Vision from './vision';
+import Mission from './mission';
 
 const arr = [
     { title: "Agile methodology" },
@@ -20,6 +20,10 @@ const arr = [
 
 const AboutUs: React.FC = () => {
     const [heading, setHeading] = useState<Heading>(IndustryHeadingList.aboutUs);
+
+    useEffect(() => {
+        document.title = 'About Us | Accinge Technologies';
+    }, []);
 
 
     return (

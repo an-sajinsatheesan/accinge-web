@@ -11,7 +11,7 @@ const ClientFeedback: React.FC = () => {
 
 {/* pb-12 md:pb-40 */}
             <div className=" overflow-hidden">
-                <Image src="/static/assets/overlayMd.webp" alt="" width={1580} height={300} className='w-100' />
+                <Image src="/static/assets/overlayMd.webp" alt="overlay" width={1580} height={300} className='w-100' />
                 {/* <div className="max-w-6xl mx-auto">
                     <h1 className='sub-green-heading p-0 md:py-4 text-center'>Trusted Clients</h1>
                     <h1 className='w-100 grid justify-center banner-title p-3 text-center md:p-0'>See What Our Clients Believe</h1>
