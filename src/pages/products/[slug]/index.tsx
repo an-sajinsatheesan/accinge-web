@@ -28,7 +28,7 @@ const ProductsAndServices: NextPageWithLayout = () => {
     return (
         <>
             <div className="bg-[url('./../../public/static/assets/beams-pricing.webp')] bg-no-repeat bg-center bg-cover overflow-hidden h-[430px] mb-16">
-                <div className="max-w-6xl mx-auto flex flex-col w-full h-full items-start justify-center md:p-0 gap-2">
+                <div className="max-w-6xl mx-auto flex flex-col w-full h-full items-start justify-center md:p-0 gap-2 asasas">
                     <div className="max-w-lg text-4xl font-semibold leading-[3rem] pt-10">
                         Human Resource Management System
                     </div>
@@ -42,7 +42,7 @@ const ProductsAndServices: NextPageWithLayout = () => {
             <SectionHeading heading={heading.heading} mainTitle={heading.mainTitle} subTitle={heading.subTitle} />
             <div className="p-8"></div>
             <div className="text-4xl font-semibold leading-[3rem] text-center py-4">KEY <span className="text-[#FF9800] text-4xl font-semibold leading-[3rem]">FEATURES</span></div>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 max-w-6xl mx-auto gap-8">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 max-w-6xl mx-auto gap-8 asasas">
                 {List?.length && List.map((item: any, index: any) => (
                     <div key={item.id}>
                         <FeildCard col={item.col} img={item.img} mainTitle={item.mainTitle} subTitle={item.subTitle} key={item.id} />
@@ -50,7 +50,7 @@ const ProductsAndServices: NextPageWithLayout = () => {
                 ))}
             </div>
             <div className="p-8"></div>
-            <div className="mt-20 bg-[#fff1fe] h-full px-4 py-20">
+            <div className="mt-20 bg-[#fff1fe] h-full md:px-4 md:py-20 asasas">
                 <div className="max-w-7xl mx-auto">
                     <SectionHeading heading={intro.heading} mainTitle={intro.mainTitle} />
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 max-w-6xl mx-auto gap-8">
@@ -92,7 +92,7 @@ const ProductsAndServices: NextPageWithLayout = () => {
             <div className="p-8"></div>
             <div className="mt-20">
                 <SectionHeading heading={benefits.heading} mainTitle={benefits.mainTitle} />
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 max-w-6xl mx-auto gap-8">
+                <div className="grid grid-cols-1 md:grid-cols-4 lg:grid-cols-5 max-w-6xl mx-auto gap-8 asasas">
                     <SpecialFeature />
                     <SpecialFeature />
                     <SpecialFeature />
@@ -101,8 +101,8 @@ const ProductsAndServices: NextPageWithLayout = () => {
                 </div>
 
             </div >
-            <div className="p-8"></div>
-            <div className="grid grid-cols-1 lg:grid-cols-4 max-w-6xl mx-auto gap-12 mt-20">
+            <div className="md:p-8"></div>
+            <div className="grid grid-cols-1 lg:grid-cols-4 max-w-6xl mx-auto gap-12 md:mt-20 asasas">
                 <div className="col-span-2 grid items-center justify-center gap-2">
                     {/* <h5 className='text-4xl font-semibold tracking-widest text-[#c1b7b7]'>Application Management and Administration</h5> */}
                     <h5 className='text-4xl text-slate-800 font-semibold tracking-[1px]'>Application Management and Administration</h5>
@@ -112,8 +112,8 @@ const ProductsAndServices: NextPageWithLayout = () => {
                         Effective HRMS management is critical for maintaining data accuracy, security, and delivering an exceptional employee experience.</h5>
                 </div>
             </div>
-            <div className="p-8"></div>
-            <div className="grid grid-cols-1 lg:grid-cols-4 max-w-6xl mx-auto gap-12 mt-20">
+            <div className="md:p-8"></div>
+            <div className="grid grid-cols-1 lg:grid-cols-4 max-w-6xl mx-auto gap-12 md:mt-20 asasas pls-work">
                 <div className="col-span-2 grid items-center justify-center">
                     <h5 className='text-base text-black leading-8'>Digital Fulfillment for HRMS customers involves providing a seamless, self-service experience. Users can access, customize, and manage HR-related processes online, from onboarding to benefits enrollment and performance management. This enhances user autonomy, efficiency, and reduces administrative burden,
                         ultimately empowering organizations to deliver a more agile and employee-centric HR service.</h5>
@@ -124,8 +124,8 @@ const ProductsAndServices: NextPageWithLayout = () => {
                 </div>
 
             </div>
-            <div className="p-8"></div>
-            <div className="grid grid-cols-1 lg:grid-cols-4 max-w-6xl mx-auto gap-12 mt-20">
+            <div className="md:p-8"></div>
+            <div className="grid grid-cols-1 lg:grid-cols-4 max-w-6xl mx-auto gap-12 md:mt-20 asasas">
                 <div className="col-span-2 grid items-center justify-center gap-2">
                     {/* <h5 className='text-4xl font-semibold tracking-widest text-[#c1b7b7]'>Application Management and Administration</h5> */}
                     <h5 className='text-4xl text-slate-800 font-semibold tracking-[1px]'>Flexible and scalable For Customers</h5>

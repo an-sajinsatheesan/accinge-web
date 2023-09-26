@@ -11,7 +11,7 @@ const Company: React.FC = () => {
         <>
             {/* <Image src="/static/assets/overlayMd.webp" alt="" width={1580} height={300} className='w-100' layout="responsive"/> */}
             <div className="asasas">
-                <div className="rounded-lg bg-[#f9e3f8] max-w-6xl mx-auto mt-20" >
+                <div className="rounded-lg bg-[#f9e3f8] max-w-6xl mx-auto mt-4 md:mt-20" >
                     <div className="flex flex-col w-full items-center justify-around md:flex-row py-12 px-3 gap-2">
                         <div className="max-w-none md:max-w-lg flex flex-col">
                             <h1 className='w-100 grid justify-start font-semibold text-[13px]  mb-3 tracking-[1.5px] leading-4 text-[#fe6f46]'>OUR COMPANY</h1>

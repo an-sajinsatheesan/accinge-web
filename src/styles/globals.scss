@@ -348,8 +348,17 @@ body {
 
 .asasas {
 
-    @media (max-width: 750px) {
+    @media (max-width: 1140px) {
         padding: 1rem;
+    }
+
+}
+
+.pls-work  {
+
+    @media (max-width: 1017px) {
+        display: flex !important;
+        flex-direction: column-reverse !important;
     }
 
 }
